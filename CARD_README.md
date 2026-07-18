@@ -1,0 +1,180 @@
+# Quantitative Reasoning And Arithmetic card blueprint
+
+This file records retrieval decisions specific to this deck. Do not copy the
+universal standard, playbook, subject brief, roadmap, or research literature
+here; link to a justified exception when one is necessary.
+
+## Learner model
+
+- Level: foundational
+- Confirmed mathematical/tool prerequisites: none
+- Confirmed subject prerequisites: none unless explicitly listed
+- Capabilities this deck should produce: understand, calculate, estimate,
+  represent, compare, and check whole, signed, rational, decimal, percent, and
+  proportional quantities in short authentic situations.
+- Important exclusions: formal algebra, geometry as a deductive subject,
+  probability and statistics, calculator-specific keystrokes, and long-form
+  problem sets.
+
+Unconfirmed subject knowledge is not mastered. A target level describes the
+destination, not permission to assume its vocabulary.
+
+## Curriculum and prerequisite graph
+
+Define prerequisite decks and assumed tools in `deck.toml`; define chapter
+edges and provided concepts in each chapter's TOML frontmatter. Inspect the
+resolved, human-readable graph with `flashcards deck prerequisites .`. Do not
+duplicate that graph here. Use this section only to explain important design
+decisions, boundaries, or rejected edges that the metadata cannot express.
+
+The ten chapters form a strict local learning progression. Later chapters will
+declare explicit `chapter:` edges when authored; their position in the chapter
+map alone grants no inbound knowledge. Chapter 1 has no inbound concepts.
+
+## Concept-dependency ledger
+
+| Concept or representation | Front(s) requiring it | Confirmed inbound source or first explanation | First supported retrieval | Later application | Status |
+|---|---|---|---|---|---|
+| Amount/quantity and numeral | 01–02 | Front 01 defines both in an everyday tray-label situation. | Front 01 asks for their relationship; Front 02 asks the distinction with less support. | Every later numerical context. | established |
+| Counting-word order, counting once, and final count | 03 | Front 03 gives a fixed word-order example, the touch-once procedure, and what the final word means. | Front 03 asks for diagnosis of a skipped item. | Visual and authentic counts. | established |
+| Zero and whole number | 04–05 | Front 04 defines whole numbers as counts of complete items, including none, and presents zero. | Front 04 retrieves zero; Front 05 retrieves the category. | Place value, number line, and all whole-number arithmetic. | established |
+| Digit, ten, ones place, tens place | 06–07 | Front 06 defines a digit and explicitly maps a grouped picture to tens and ones. | Front 06 translates the picture; Front 07 retrieves the value of a digit by place. | Multi-digit arithmetic in Chapters 2–4. | established |
+| Hundreds place and placeholder zero | 08–09 | Front 08 states the ones–tens–hundreds sequence and explains that zero can record no groups in a place. | Front 08 retrieves the zero's role; Front 09 diagnoses a place-value error. | Larger whole numbers, decimals, and written algorithms. | established |
+| Whole-number line, marked spot, left/right ordering | 10 | Front 10 defines the line grammar and growth to the right; its original figure labels all values. | Front 10 asks which marked spot is greater. | Comparison, signed numbers, fractions, decimals, rounding. | established |
+| Comparison symbols `<` and `>` | 11 | Front 11 gives both readings and relates each to amount before asking the learner to choose between two complete comparisons. | Front 11 chooses the correct comparison for 8 and 3. | Inequalities and quantitative checks. | established |
+| Exact amount and estimate | 12–13 | Front 12 defines and contrasts the terms using counted versus visually judged beads. | Front 12 classifies a report; Front 13 retrieves when an estimate is appropriate. | Rounding and error-aware decisions throughout. | established |
+| Rounding, nearest ten, halfway, lower/higher ten, ones-digit rule | 14–16 | Front 14 defines rounding and nearest-ten choice, labels the endpoints and halfway point, and supplies a number-line figure; Front 16 states the ones-digit shortcut before asking for diagnosis. | Front 14 interprets the figure; Front 15 executes an analyzed rounding problem. | Front 16 diagnoses wrong-direction rounding; Chapters 2, 3, 7, 9, and 10. | established |
+| IPEE problem structure | 15 | Solution 15 names and demonstrates IDENTIFY, PLAN, EXECUTE, and EVALUATE after the front requires only the already-taught rounding task. | Front/Solution 15 is the analyzed model. | Later faded and independent problem cards. | established |
+| Nearest hundred | 17–18 | Front 17 explicitly transfers the already-taught nearest-place idea to hundreds and supplies the halfway test. | Front 17 makes a supported choice. | Front 18 independently rounds an authentic count. | established |
+| Addition as joining; `+`; sum | Ch. 2 fronts 01–04 | Ch. 2 Front 01 joins two visible counts and defines the symbol and operation; whole numbers come from Ch. 1. | Ch. 2 Fronts 01–02 translate situation and notation. | Computation, missing-part reasoning, multiplication, and every later total. | planned |
+| Subtraction as separating/comparing; `-`; difference | Ch. 2 fronts 05–08 | Ch. 2 Front 05 defines removal and the symbol; Front 07 explicitly bridges comparison as a second meaning. | Ch. 2 Fronts 05 and 07. | Inverse checks, signed change, fraction/decimal subtraction, percent change. | planned |
+| Regrouping and aligned whole-number computation | Ch. 2 fronts 09–14 | Ch. 1 established place value; Ch. 2 Front 09 explains exchanging one ten for ten ones without changing the amount. | Supported computation precedes faded problems. | Multi-digit arithmetic and decimal alignment. | planned |
+| Equal groups, arrays, multiplication, factors, product | Ch. 3 fronts 01–07 | Ch. 3 Front 01 defines equal groups and `x`; an original array establishes rows/columns on its own front. | Translation among words, array, and notation. | Products, powers, factors, fraction/decimal scaling, proportions. | planned |
+| Sharing/grouping division, quotient, remainder | Ch. 3 fronts 08–16 | Separate scheduled fronts define both division meanings and establish `÷`; remainder is introduced with an incomplete final group. | Meaning contrast and quotient/remainder retrieval. | Factors, fraction division, unit rates, conversions. | planned |
+| Expression, grouping marks, operation order, exponent/power | Ch. 4 fronts 01–08 | Ch. 4 Front 01 defines an expression; later fronts teach grouping, left-to-right rules, and powers before mixed evaluation. | Supported interpretation before independent evaluation. | Fraction/decimal computations and percent expressions. | planned |
+| Factor, multiple, divisibility, prime, composite | Ch. 4 fronts 09–17 | Multiplication/division are inbound from Ch. 3; each term is defined with a concrete factor-pair example before retrieval. | Factor/multiple contrast, divisibility diagnosis, classification. | Simplifying fractions and building common denominators. | planned |
+| Signed number, positive/negative sign, zero, opposite, absolute distance | Ch. 5 fronts 01–08 | Ch. 5 Front 01 defines signed positions with a self-contained number line; opposite and distance from zero follow on scheduled fronts. | Position, comparison, opposite, and distance retrieval. | Signed addition/subtraction and later quantitative changes. | planned |
+| Signed addition and subtraction as directed movement | Ch. 5 fronts 09–18 | Directional movement is demonstrated on an original line before symbolic rules and applications. | Prediction and diagnosis precede independent movement problems. | Decimal change, percent change, and measurement error. | planned |
+| Fraction, equal parts, numerator/denominator, unit fraction | Ch. 6 fronts 01–07 | Original area and line models define the representation on scheduled fronts. | Translate among picture, words, and notation. | Equivalence, comparison, operations, and fractions of quantities. | planned |
+| Equivalent fractions, mixed numbers, common denominator | Ch. 6 fronts 08–16 | Equal scaling is tied to multiplication; mixed-number notation and denominator alignment are explicitly bridged before use. | Visual equivalence and comparison before computation. | Fraction operations and decimal/percent translation. | planned |
+| Fraction multiplication/division and reciprocal | Ch. 6 fronts 17–28 | “Of” is introduced as selecting a fraction of a quantity; division is first modeled as number of equal fractional groups. | Analyzed models precede symbolic methods and mixed problems. | Rates, proportions, percent, and unit conversion. | planned |
+| Decimal point, tenths/hundredths/thousandths, finite decimal | Ch. 7 fronts 01–07 | Ch. 7 Front 01 extends Ch. 1 place value to places right of a decimal point; fraction links use Ch. 6. | Grid, notation, comparison, and number-line translation. | Decimal operations, percent, and measurement. | planned |
+| Decimal computation and normalization of divisors | Ch. 7 fronts 08–20 | Whole-number algorithms and fraction meaning are inbound; alignment and equivalent scaling are taught before execution. | Analyzed addition/multiplication/division before independent use. | Unit rates, money contexts, percent, measurement. | planned |
+| Ratio, equivalent ratio, rate, unit rate, scale factor | Ch. 8 fronts 01–11 | Ch. 8 begins with two explicitly counted kinds of objects; multiplication and division support scaling and per-one rates. | Translation among words, notation, tables, and double number lines. | Proportion problems and percent. | planned |
+| Proportional relationship and additive-versus-multiplicative comparison | Ch. 8 fronts 12–20 | Constant multiplicative scaling is defined before diagnosis; no graph grammar is assumed. | Complete/faded tables and mixed classification. | Percent and unit conversions. | planned |
+| Percent, percent rate, part, whole, percentage point | Ch. 9 fronts 01–13 | A hundred grid defines “per hundred”; decimal/fraction forms are inbound. Part/whole/rate roles are named before problems. | Representation translation and role selection. | Consumer decisions and change comparisons. | planned |
+| Discount, tax, tip, percent change, successive change | Ch. 9 fronts 14–21 | Each context is minimally defined on its first scheduled front; original price/baseline diagrams show structure without leaking results. | Analyzed cases precede independent and mixed decisions. | Measurement decisions and later algebraic modeling. | planned |
+| Measurement, unit, scale division, precision, compatible units | Ch. 10 fronts 01–10 | Ch. 10 contrasts measurement with exact count, defines unit and instrument scale, and establishes each unit identity on a scheduled front. | Read and choose units before conversion. | Mixed estimation and decision problems. | planned |
+| Conversion factor, rounded-value interval, false precision, unit check | Ch. 10 fronts 11–21 | Ratios and rounding are inbound; conversion maps and interval figures explicitly establish their grammar. | Analyzed conversions and error diagnoses before independent critique. | Durable quantitative reasoning and later modeling. | planned |
+
+Rejected pilot examples:
+
+- Money, length, temperature, debt, fractions of objects, and arithmetic totals
+  were rejected because they would borrow units, signed numbers, fractions, or
+  operations from later chapters.
+- A comma-separated numeral such as `12,450` was rejected because the comma
+  convention had not earned a separate bridge.
+- Rounding-error bounds written with inequalities were rejected because they
+  would make symbol manipulation, rather than estimation, the hidden target.
+
+Record rejected examples that depended on future chapters. The answer revealed
+after an uninformed failure is not a first explanation.
+
+## Retrieval portfolio
+
+Across the deck, basic cards carry bounded explanation, translation,
+comparison, and diagnosis. Problem cards carry method selection and execution
+through analyzed, faded, independent, and mixed progression. Clozes are not
+planned by default; they will be used only if an already-understood exact symbol
+or phrase benefits from compact recall.
+
+Primary interference pairs are quantity/numeral, digit/number, value/digit,
+addition/multiplication, subtraction/division, factor/multiple, positive
+sign/operation sign, numerator/denominator, fraction/ratio, decimal place-value
+alignment/visual digit alignment, additive/multiplicative comparison,
+percentage points/percent change, exact/estimated, and count/measurement.
+
+## Chapter design ledger
+
+Complete this before large-scale authoring and reconcile it at handoff. Add rows
+or split columns when a chapter has several distinct figures or problems.
+
+| Chapter | Retrieval targets | Basic-card roles | Cloze candidates | Problem progression | Representations and figure opportunities |
+|---|---|---|---|---|---|
+| 1. Quantities and whole numbers | Quantity/numeral, reliable counting, zero, whole number, digit/place value, comparison, exact/estimate, rounding. | Teaching bridges, representation translation, comparison-symbol choice, and counting, place-value, and rounding error diagnoses. | None: every compact term first needs meaning and discrimination. | Supported classification → analyzed nearest-ten IPEE → error diagnosis → supported transfer to hundreds → independent authentic rounding. | **Include:** grouped counters for tens/ones; ordered number line; rounding number line. **Omit:** photographed objects (decorative and licensing burden); comma-separated place-value chart (unneeded convention); hundreds-block drawing (same role as grouped counters). |
+| 2. Addition and subtraction | Join, separate, difference, unknown-part choice, algorithms, inverse and estimate checks. | Planned 15 basic cards: teaching bridges, operation choice, compensation, regrouping meaning, and error diagnosis. | None: symbol readings are carried by meaningful basic cards. | 4 problems: analyzed join → completion/regrouping → independent subtraction → mixed operation choice. | **Include 2:** part-whole bar; open number line. **Omit:** decorative shopping images and a second regrouping picture because place-value notation carries that role. |
+| 3. Multiplication and division | Equal groups, arrays, repeated scaling, sharing/grouping division, remainder meanings, inverse checks. | Planned 17 basic cards: translation, division-meaning contrast, partial products, and remainder diagnosis. | None: isolated facts do not yet justify schedules. | 4 problems: analyzed array → completion quotient/remainder → independent grouping → mixed operation choice. | **Include 3:** equal-groups array; sharing versus grouping panels; remainder grouping. **Omit:** multiplication table because it leaks facts. |
+| 4. Operation structure and factors | Grouping marks, operation order, factor/multiple, divisibility, prime/composite, powers. | Planned 16 basic cards: structural cues, counterexamples, and key contrasts. | None: the convention is better retrieved through evaluation choices. | 4 problems: analyzed expression → faded order choice → independent factor/divisibility → mixed classification. | **Include 2:** expression tree; factor-pair arrays. **Omit:** prime spiral because visual pattern is not evidence. |
+| 5. Signed quantities | Sign as direction/position, opposite, absolute distance, compare/add/subtract signed values. | Planned 15 basic cards: line interpretation, prediction, sign-role contrast, and diagnoses. | None: exact sign relations remain contextual. | 4 problems: analyzed movement → completion sum → independent position change → mixed sign diagnosis. | **Include 3:** signed positions; addition movement; subtraction/add-opposite comparison. **Omit:** thermometer photograph and unbridged domain units. |
+| 6. Fractions | Equal parts, unit fraction, numerator/denominator, number-line magnitude, equivalence, operations, fraction of a quantity. | Planned 24 basic cards: representation translation, method rationale, and misconceptions. | None: symbolic identities are retrieved through meaningful comparisons. | 6 problems: analyzed partition → completion equivalence → faded addition → independent “of,” multiplication, and division → mixed comparison. | **Include 5:** equal-part area; fraction line; equivalence strips; set model; fraction-group division. **Omit:** unequal “pizza slices” and decorative food. |
+| 7. Decimals | Decimal place value, fraction/decimal/money translation, comparison, rounding, four operations. | Planned 18 basic cards: place-value translation, alignment rationale, and display/trailing-zero diagnoses. | None: place names appear in meaningful retrieval. | 5 problems: analyzed grid → completion addition → independent multiplication/division → mixed money/rounding. | **Include 3:** hundred grid; decimal number line; aligned place-value columns. **Omit:** currency photographs and measurement contexts reserved for Chapter 10. |
+| 8. Ratios, rates, and proportions | Ratio, equivalent ratios, unit rate, scale factor, proportional table, additive-versus-multiplicative distinction. | Planned 15 basic cards: representation translation, scaling prediction, and nonproportional diagnosis. | None: relations and method choices need reasoning. | 5 problems: analyzed double line → completion table → independent unit-rate/scaling → mixed shortcut rejection. | **Include 3:** two-kind collection; double number line; proportional/nonproportional table schematic. **Omit:** graphs until axis grammar is established in algebra. |
+| 9. Percents | Per hundred, percent/fraction/decimal translation, part-whole-rate, discount/tax/tip, percent change and percentage points. | Planned 15 basic cards: translation, baseline choice, and change diagnoses. | None: “per hundred” is used in decisions rather than isolated prose. | 6 problems: analyzed grid → completion roles → independent consumer cases → mixed change interpretation. | **Include 3:** hundred grid; price breakdown; before/after baseline bars. **Omit:** copied ads and receipts. |
+| 10. Measurement, estimation, and decisions | Units, conversion, count/measurement, precision, rounding effects, dimensional checks, mixed quantitative critique. | Planned 16 basic cards: unit choice, scale reading, reasonableness, false precision, and incompatible-unit diagnosis. | None: unit identities are applied, not memorized without context. | 5 problems: analyzed conversion → faded scale reading → independent mixed decisions → insufficient-information critique. | **Include 3:** instrument scale; conversion map; rounded-value interval. **Omit:** statistical data graphs and geometry-dependent scale drawings. |
+
+Card-form diversity is not a goal by itself. Zero clozes can be correct. A
+visually rich chapter may require several figures because diagrams, graphs,
+before/after states, and spatial constructions serve different retrieval roles.
+
+## Initial-learning path
+
+Chapter 1 alternates minimal teaching bridges with supported retrieval, then
+fades support. It begins with everyday amounts and written labels, establishes
+counting and whole numbers, builds multi-digit notation from grouped objects,
+then adds number-line and comparison grammar. Only after exact-versus-estimated
+amounts are understood does it teach rounding, demonstrate IPEE, diagnose an
+error, generalize to hundreds, and ask for independent application.
+
+Each later chapter must repeat this establish → retrieve → vary → diagnose →
+apply pattern using only its declared closure. Full authoring remains blocked
+until `.flashcards/audits/pilot-cold-start.md` passes and a human explicitly
+approves the pilot.
+
+## Figure policy
+
+Add a figure only when inspecting, predicting, labeling, comparing, tracing, or
+translating it is part of learning. Author new technical figures in TikZ by
+default, compile them to responsive SVG before handoff, and commit source and
+output together under repository-root `figures/NN_chapter/`; keep the shared
+style at `figures/tikz-style.tex` and never create `flashcards/figures/`. Since
+rendering runs from the repository root, load it with
+`\\input{figures/tikz-style.tex}` rather than a source-relative path. Put
+setup figures on the front and answer-revealing
+annotations on the back. Record why an authentic target requires another medium.
+
+Do not treat one figure per chapter as a target or cap. Inventory every
+plausible spatial, temporal, structural, graphical, relational, experimental,
+and before/after representation, then include or explicitly omit it according
+to its retrieval value.
+
+## Sources and accuracy
+
+Record authoritative sources, licenses, access dates, contested points,
+simplifications, and boundary conditions in `README.md`.
+
+## Planned-versus-actual inventory
+
+| Chapter | Planned forms/problems/figures | Actual at this gate | Reconciliation |
+|---|---|---|---|
+| 1 | 16 basic cards, 2 problem cards; no clozes; one analyzed and one independent IPEE application plus diagnoses; 3 TikZ figures. | 16 basic cards, 2 problem cards; no clozes; 3 TikZ figures. | Matches the design ledger. The independent problem uses a new authentic count but no later-chapter operation or unit. |
+| 2 | 15 basic, 4 problems, 0 clozes, 2 figures. | 15 basic, 4 problems, 0 clozes, 2 figures. | Matched: part-whole and open-line figures have distinct translation roles. |
+| 3 | 17 basic, 4 problems, 0 clozes, 3 figures. | 17 basic, 4 problems, 0 clozes, 3 figures. | Matched: array, division-meaning contrast, and remainder grouping are independent visual decisions. |
+| 4 | 16 basic, 4 problems, 0 clozes, 2 figures. | 16 basic, 4 problems, 0 clozes, 2 figures. | Matched: expression structure and factor-pair completeness need different representations. |
+| 5 | 15 basic, 4 problems, 0 clozes, 3 figures. | 15 basic, 4 problems, 0 clozes, 3 figures. | Matched: position, positive movement, and subtract/add-opposite comparison remain distinct. |
+| 6 | 24 basic, 6 problems, 0 clozes, 5 figures. | 24 basic, 6 problems, 0 clozes, 5 figures. | Matched: area, line, equivalence, set, and grouping-division meanings are not interchangeable. |
+| 7 | 18 basic, 5 problems, 0 clozes, 3 figures. | 18 basic, 5 problems, 0 clozes, 3 figures. | Matched: hundred-grid, line, and aligned-column translations each support a separate decision. |
+| 8 | 15 basic, 5 problems, 0 clozes, 3 figures. | 15 basic, 5 problems, 0 clozes, 3 figures. | Matched: collection, double-line, and table figures cover distinct ratio grammars. |
+| 9 | 15 basic, 6 problems, 0 clozes, 3 figures. | 16 basic, 5 problems, 0 clozes, 3 figures. | One planned calculation problem became a basic interpretation of the original baseline; this prevents percent-change computation from hiding a baseline-choice dependency. All target families remain covered. |
+| 10 | 16 basic, 5 problems, 0 clozes, 3 figures. | 16 basic, 5 problems, 0 clozes, 3 figures. | Matched: scale reading, conversion direction, and rounded-value range are distinct visual targets. |
+| **Complete deck** | **167 basic, 45 problems, 0 clozes, 30 figures, including the approved pilot.** | **168 basic, 44 problems, 0 clozes, 30 figures; 212 cards total.** | **The one-card form shift is explained above. No planned target or figure role is missing, and no weak card was added to force a distribution.** |
+
+## Validation gate
+
+Before handoff:
+
+1. Run `flashcards deck stabilize . --check`.
+2. Run `flashcards deck validate .`.
+3. Inspect every changed figure at phone width.
+4. Reconcile planned versus actual card types, problems, and figures by chapter.
+5. Run `git diff --check` and review the complete diff.
+6. Summarize additions, changes, omissions, and any unresolved uncertainty.

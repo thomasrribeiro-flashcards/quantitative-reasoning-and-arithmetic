@@ -1,0 +1,11 @@
+% flashcards-title: Fourths on a number line
+% flashcards-desc: A number line from zero to two is divided into fourths, with A at three fourths and B at five fourths.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[qra axis,-{Latex[length=3mm,width=2mm]}](-.3,0)--(8.5,0);
+\foreach \x in {0,...,8}{\draw[qra tick](\x,-.12)--(\x,.12);}
+\node[qra label,below=4pt]at(0,0){0};\node[qra label,below=4pt]at(4,0){1};\node[qra label,below=4pt]at(8,0){2};
+\fill[qraBlue](3,0)circle(3pt);\node[qra label,above=7pt]at(3,0){A};
+\fill[qraGold](5,0)circle(3pt);\node[qra label,above=7pt]at(5,0){B};
+\end{tikzpicture}\end{document}

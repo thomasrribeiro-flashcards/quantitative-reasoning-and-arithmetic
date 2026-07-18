@@ -1,0 +1,10 @@
+% flashcards-title: A positive movement from negative one
+% flashcards-desc: A signed number line arrow moves four units right from negative one to positive three.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}\begin{tikzpicture}[x=1.1cm,y=1cm]
+\draw[qra axis,-{Latex[length=3mm,width=2mm]}](-3.4,0)--(4.5,0);
+\foreach \x in {-3,...,4}{\draw[qra tick](\x,-.12)--(\x,.12);\node[qra small label,below=4pt]at(\x,0){\x};}
+\draw[qraBlue,line width=1.3pt,-{Latex[length=3mm,width=2mm]}](-1,.25)..controls(0,1.35)and(2,1.35)..(3,.25);
+\node[qra label]at(1,1.2){4 right};
+\end{tikzpicture}\end{document}

@@ -1,0 +1,8 @@
+% flashcards-title: Three of four equal parts
+% flashcards-desc: A rectangle is divided into four equal vertical parts, with three shaded and one unshaded.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}\begin{tikzpicture}[x=1.2cm,y=1cm]
+\foreach \x in {0,1,2}{\fill[qraPale](\x,0)rectangle(\x+1,1.5);}
+\draw[qra axis](0,0)rectangle(4,1.5);\foreach \x in {1,2,3}{\draw[qra tick](\x,0)--(\x,1.5);}
+\end{tikzpicture}\end{document}

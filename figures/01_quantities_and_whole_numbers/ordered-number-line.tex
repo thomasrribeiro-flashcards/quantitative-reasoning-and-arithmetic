@@ -1,0 +1,17 @@
+% flashcards-title: Two marked positions on a whole-number line
+% flashcards-desc: A horizontal number line is labeled from zero through six. A is marked at two and B is marked at five.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=1.35cm,y=1cm]
+  \draw[qra axis, -{Latex[length=3mm,width=2mm]}] (-0.2,0) -- (6.45,0);
+  \foreach \x in {0,...,6} {
+    \draw[qra tick] (\x,-0.12) -- (\x,0.12);
+    \node[qra small label, below=5pt] at (\x,0) {\x};
+  }
+  \fill[qraBlue] (2,0) circle (2.7pt);
+  \node[qra label, above=8pt] at (2,0) {A};
+  \fill[qraGold] (5,0) circle (2.7pt);
+  \node[qra label, above=8pt] at (5,0) {B};
+\end{tikzpicture}
+\end{document}

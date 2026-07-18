@@ -1,0 +1,4 @@
+% flashcards-title: Original price split into discount and sale price
+% flashcards-desc: A fifty-dollar bar is divided into a hatched ten-dollar discount and a shaded forty-dollar sale price.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}\input{figures/tikz-style.tex}
+\begin{document}\begin{tikzpicture}[x=.14cm,y=1cm]\fill[fill=qraGold!25](0,0)rectangle(10,1);\fill[qraPale](10,0)rectangle(50,1);\draw[qra axis](0,0)rectangle(50,1);\draw[qra tick](10,0)--(10,1);\node[qra label]at(5,.5){\$10};\node[qra label]at(30,.5){\$40};\node[qra small label,above=4pt]at(25,1){original \$50};\end{tikzpicture}\end{document}

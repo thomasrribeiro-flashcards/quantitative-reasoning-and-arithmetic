@@ -1,0 +1,4 @@
+% flashcards-title: Two circles and three squares
+% flashcards-desc: A collection contains two outlined circles followed by three hatched squares.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}\input{figures/tikz-style.tex}
+\begin{document}\begin{tikzpicture}[x=1cm]\foreach \x in {0,1}{\draw[qra axis,fill=qraPale](\x,0)circle(.35);}\foreach \x in {2.2,3.2,4.2}{\draw[qra axis,fill=qraGold!25](\x-.35,-.35)rectangle(\x+.35,.35);}\end{tikzpicture}\end{document}

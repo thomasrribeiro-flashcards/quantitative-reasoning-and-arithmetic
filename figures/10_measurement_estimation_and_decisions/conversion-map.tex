@@ -1,0 +1,11 @@
+% flashcards-title: Metric unit conversion map
+% flashcards-desc: Arrows connect kilograms to grams by times one thousand and meters to centimeters by times one hundred, with reverse division arrows.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}\input{figures/tikz-style.tex}
+\begin{document}\begin{tikzpicture}[x=1cm,y=1cm]
+\node[qra counter,minimum size=10mm](kg)at(0,2.3){kg};\node[qra counter,minimum size=10mm](g)at(5,2.3){g};
+\draw[qraBlue,line width=1.1pt,-{Latex[length=3mm,width=2mm]}](kg)to[bend left=18]node[qra small label,above]{\(\times1000\)}(g);
+\draw[qraGold,line width=1.1pt,-{Latex[length=3mm,width=2mm]}](g)to[bend left=18]node[qra small label,below]{\(\div1000\)}(kg);
+\node[qra counter,minimum size=10mm](m)at(0,0){m};\node[qra counter,minimum size=10mm](cm)at(5,0){cm};
+\draw[qraBlue,line width=1.1pt,-{Latex[length=3mm,width=2mm]}](m)to[bend left=18]node[qra small label,above]{\(\times100\)}(cm);
+\draw[qraGold,line width=1.1pt,-{Latex[length=3mm,width=2mm]}](cm)to[bend left=18]node[qra small label,below]{\(\div100\)}(m);
+\end{tikzpicture}\end{document}

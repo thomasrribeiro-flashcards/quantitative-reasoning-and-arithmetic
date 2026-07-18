@@ -1,0 +1,16 @@
+% flashcards-title: Thirty-five squares per hundred
+% flashcards-desc: A ten by ten grid has thirty-five cells shaded.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=.35cm,y=.35cm]
+  \foreach \n in {0,...,34}{
+    \pgfmathtruncatemacro{\x}{floor(\n/10)}
+    \pgfmathtruncatemacro{\y}{mod(\n,10)}
+    \fill[qraPale] (\x,\y) rectangle (\x+1,\y+1);
+  }
+  \foreach \i in {0,...,10}{
+    \draw[qra axis] (\i,0) -- (\i,10);
+    \draw[qra axis] (0,\i) -- (10,\i);
+  }
+\end{tikzpicture}
+\end{document}

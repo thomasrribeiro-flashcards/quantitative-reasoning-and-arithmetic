@@ -1,0 +1,4 @@
+% flashcards-title: Tenths on a centimeter scale
+% flashcards-desc: A scale from four to five centimeters has ten equal divisions and marks A at the seventh division after four.
+\documentclass[dvisvgm,tikz,border=8pt]{standalone}\input{figures/tikz-style.tex}
+\begin{document}\begin{tikzpicture}[x=.8cm,y=1cm]\draw[qra axis](0,0)--(10,0);\foreach \x in {0,...,10}{\draw[qra tick](\x,0)--(\x,{ifthenelse(mod(\x,10)==0,.55,.3)});}\node[qra label,below=4pt]at(0,0){4 cm};\node[qra label,below=4pt]at(10,0){5 cm};\draw[qraBlue,line width=1.4pt](7,-.1)--(7,.8);\node[qra label,above=2pt]at(7,.8){A};\end{tikzpicture}\end{document}
