@@ -9,6 +9,7 @@ created = "2026-07-17"
 
 [prerequisites]
 decks = []
+recommended_decks = []
 assumed_tools = []
 
 [standards]
