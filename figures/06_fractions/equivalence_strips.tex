@@ -1,0 +1,24 @@
+% flashcards-title: Three equal-length strips cut into halves, fourths, and sixths
+% flashcards-desc: Three stacked horizontal strips of identical length, labeled halves, fourths, and sixths on the left. The top strip is cut into two equal parts and its left part is shaded with a pale tint and diagonal hatching; the middle strip is cut into four equal parts; the bottom strip is cut into six equal parts. A dashed vertical guide drops from the right edge of the shaded half through all three strips.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=1.5cm, y=0.62cm]
+  % Top strip: halves, left half shaded
+  \fill[qraPale] (0,4) rectangle (3,5);
+  \path[pattern=north east lines, pattern color=qraBlue] (0,4) rectangle (3,5);
+  \draw[qra tick] (3,4) -- (3,5);
+  \draw[qra axis] (0,4) rectangle (6,5);
+  \node[qra small label, left=6pt] at (0,4.5) {halves};
+  % Middle strip: fourths
+  \foreach \i in {1,...,3} \draw[qra tick] ({\i*1.5},2) -- ({\i*1.5},3);
+  \draw[qra axis] (0,2) rectangle (6,3);
+  \node[qra small label, left=6pt] at (0,2.5) {fourths};
+  % Bottom strip: sixths
+  \foreach \i in {1,...,5} \draw[qra tick] (\i,0) -- (\i,1);
+  \draw[qra axis] (0,0) rectangle (6,1);
+  \node[qra small label, left=6pt] at (0,0.5) {sixths};
+  % Dashed guide from the shaded boundary through all strips
+  \draw[qra guide] (3,-0.5) -- (3,5.5);
+\end{tikzpicture}
+\end{document}

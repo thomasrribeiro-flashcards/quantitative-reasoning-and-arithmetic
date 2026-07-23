@@ -1,0 +1,15 @@
+% flashcards-title: Three same-size wholes each cut into four equal pieces
+% flashcards-desc: Three identical rectangles side by side, each divided by vertical lines into four equal pieces. The first piece of the first rectangle is labeled one fourth in fraction notation.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=0.62cm, y=1.5cm]
+  \foreach \w in {0,1,2} {
+    \begin{scope}[shift={({\w*5},0)}]
+      \foreach \i in {1,...,3} \draw[qra tick] (\i,0) -- (\i,1);
+      \draw[qra axis] (0,0) rectangle (4,1);
+    \end{scope}
+  }
+  \node[qra small label] at (0.5,0.5) {$\frac{1}{4}$};
+\end{tikzpicture}
+\end{document}

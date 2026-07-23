@@ -1,0 +1,15 @@
+% flashcards-title: Twelve game pieces separated into equal groups
+% flashcards-desc: Twelve identical round game pieces arranged in four columns of three. A dashed rounded rectangle rings each column, making four equal groups of three pieces.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=1.35cm, y=1.05cm]
+  \foreach \g in {0,...,3} {
+    \foreach \r in {0,...,2} {
+      \node[qra counter] at (\g,-\r) {};
+    }
+    \draw[qra guide, rounded corners=6pt]
+      ({\g-0.42},0.52) rectangle ({\g+0.42},-2.52);
+  }
+\end{tikzpicture}
+\end{document}

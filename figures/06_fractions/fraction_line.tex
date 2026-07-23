@@ -1,0 +1,18 @@
+% flashcards-title: A dot on a number line between 0 and 1
+% flashcards-desc: A horizontal number line with arrowheads on both ends. Tall marks labeled 0 and 1 bound the middle of the line, shorter equally spaced marks cut the space between them into equal steps, and a round dot sits on one of the marks between 0 and 1.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=1.5cm]
+  \draw[qra axis, {Stealth[length=3.2mm]}-{Stealth[length=3.2mm]}] (-0.55,0) -- (6.55,0);
+  % Taller end marks at 0 and 1
+  \draw[qra tick] (0,-0.18) -- (0,0.18);
+  \draw[qra tick] (6,-0.18) -- (6,0.18);
+  % Interior sixth marks
+  \foreach \n in {1,...,5} \draw[qra tick] (\n,-0.12) -- (\n,0.12);
+  \node[qra label, below=6pt] at (0,-0.18) {0};
+  \node[qra label, below=6pt] at (6,-0.18) {1};
+  % Dot on the fifth mark
+  \fill[qraBlue] (5,0) circle (2.8pt);
+\end{tikzpicture}
+\end{document}

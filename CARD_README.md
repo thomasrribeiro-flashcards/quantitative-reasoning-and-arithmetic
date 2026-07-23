@@ -60,9 +60,9 @@ map alone grants no inbound knowledge. Chapter 1 has no inbound concepts.
 | Factor, multiple, divisibility, prime, composite | Ch. 4 fronts 12–22 | Multiplication/division are inbound from Ch. 3; each term is defined with a concrete factor-pair example before retrieval. | Factor/multiple contrast, divisibility diagnosis, classification. | Simplifying fractions and building common denominators. | established |
 | Signed number, positive/negative sign, zero, opposite, absolute distance | Ch. 5 fronts 01–08 | Ch. 5 Front 01 defines signed numbers on a counted floors-from-street-level context; Front 02 extends the Ch. 1 line left of zero with an original figure; distance from zero and opposite follow on scheduled fronts. | Position, comparison, opposite, and distance retrieval, including the sign-versus-subtraction discrimination. | Signed addition/subtraction and later quantitative changes. | established |
 | Signed addition and subtraction as directed movement | Ch. 5 fronts 09–19 | Front 09 derives the leftward jump for a negative addend on an original line figure and bridges grouping-mark packaging; subtraction crossing zero and the add-the-opposite identity are demonstrated before independent problems. | Prediction and diagnosis precede independent movement problems. | Decimal change, percent change, and measurement error. | established |
-| Fraction, equal parts, numerator/denominator, unit fraction | Ch. 6 fronts 01–07 | Original area and line models define the representation on scheduled fronts. | Translate among picture, words, and notation. | Equivalence, comparison, operations, and fractions of quantities. | planned |
-| Equivalent fractions, mixed numbers, common denominator | Ch. 6 fronts 08–16 | Equal scaling is tied to multiplication; mixed-number notation and denominator alignment are explicitly bridged before use. | Visual equivalence and comparison before computation. | Fraction operations and decimal/percent translation. | planned |
-| Fraction multiplication/division and reciprocal | Ch. 6 fronts 17–28 | “Of” is introduced as selecting a fraction of a quantity; division is first modeled as number of equal fractional groups. | Analyzed models precede symbolic methods and mixed problems. | Rates, proportions, percent, and unit conversion. | planned |
+| Fraction, equal parts, numerator/denominator, unit fraction, quotient meaning | Ch. 6 fronts 01–08 (basics 01–07, Problem 01) | Front 01 defines equal parts, fraction notation, numerator, denominator, and unit fraction on an original shaded-strip figure; Front 05 extends the Ch. 1 line with an original sixths figure; analyzed Problem 01 derives 3 ÷ 4 = 3/4 from equal sharing. | Translate among picture, words, and notation; Front 07 reuses Ch. 5 opposites on a fraction. | Equivalence, comparison, operations, and fractions of quantities. | established |
+| Equivalent fractions, mixed numbers, common denominator | Ch. 6 fronts 09–20 (basics 09–18, Problems 02–03 among them) | Mixed↔improper conversion is bridged through Ch. 3 division-with-remainder; equivalence is derived on the original strips figure and tied to Ch. 3 multiplication; “common factor” and “common multiple” each get a one-clause bridge at first use. | Visual equivalence, simplest form, and four comparison strategies precede computation; the add-1-to-both misconception is diagnosed after common denominators exist. | Fraction operations and decimal/percent translation. | established |
+| Fraction addition/subtraction, multiplication/division, reciprocal | Ch. 6 fronts 19–34 | Same-denominator addition counts unit fractions; unlike denominators reuse renaming; “of” selects a fraction of a counted set on an original figure; division is first modeled as counting fractional groups on an original figure before the reciprocal rule. | Analyzed and faded models precede independent “of,” multiplication, and division problems and the mixed comparison. | Rates, proportions, percent, and unit conversion. | established |
 | Decimal point, tenths/hundredths/thousandths, finite decimal | Ch. 7 fronts 01–07 | Ch. 7 Front 01 extends Ch. 1 place value to places right of a decimal point; fraction links use Ch. 6. | Grid, notation, comparison, and number-line translation. | Decimal operations, percent, and measurement. | planned |
 | Decimal computation and normalization of divisors | Ch. 7 fronts 08–20 | Whole-number algorithms and fraction meaning are inbound; alignment and equivalent scaling are taught before execution. | Analyzed addition/multiplication/division before independent use. | Unit rates, money contexts, percent, measurement. | planned |
 | Ratio, equivalent ratio, rate, unit rate, scale factor | Ch. 8 fronts 01–11 | Ch. 8 begins with two explicitly counted kinds of objects; multiplication and division support scaling and per-one rates. | Translation among words, notation, tables, and double number lines. | Proportion problems and percent. | planned |
@@ -98,6 +98,23 @@ Rejected Chapter 2 examples:
 - A copied receipt, worksheet, or base-ten-block image was rejected; all
   contexts and technical figures are original, and the diagrams define their
   own grammar on scheduled fronts.
+
+Rejected Chapter 6 examples (2026-07-23 regeneration):
+
+- Measurement units, money, and time contexts (half a cup, three-quarters of a
+  dollar, half an hour) were rejected because units and money belong to later
+  chapters; all contexts use counted objects such as bars, panes, games, and
+  game pieces.
+- Decimal names and percent phrasing for fractions were rejected as
+  later-chapter vocabulary.
+- Letter placeholders in equivalence completions were rejected; a question
+  mark expresses the bounded missing numerator without algebra.
+- A benchmark-½ comparison with an odd denominator (such as 5/9) was rejected
+  because locating half of an odd count of parts would smuggle in fraction
+  multiplication before it is taught; even denominators carry that card.
+- Unequal decorative “pizza slice” art was rejected per the design ledger; the
+  equal-parts requirement is carried by an original strip figure whose grammar
+  is stated on its own front.
 
 Record rejected examples that depended on future chapters. The answer revealed
 after an uninformed failure is not a first explanation.
@@ -183,12 +200,12 @@ simplifications, and boundary conditions in `README.md`.
 | 3 | 17 basic, 4 problems, 0 clozes, 3 figures. | 17 basic, 4 problems, 0 clozes, 3 figures. | Matched: array, division-meaning contrast, and remainder grouping are independent visual decisions. |
 | 4 | 16 basic, 4 problems, 0 clozes, 2 figures. | 18 basic, 4 problems, 0 clozes, 2 figures (regenerated fresh on 2026-07-23). | Two basics were added, not to raise volume: the equal-rank left-to-right rule was split from the precedence card because the two rules fail independently (a learner can rank operations correctly yet still misread ties), and a factor-versus-multiple direction card was added because the declared interference pair needs its own discrimination decision. Figure roles match: expression structure and factor-pair completeness need different representations. |
 | 5 | 15 basic, 4 problems, 0 clozes, 3 figures. | 15 basic, 4 problems, 0 clozes, 3 figures (regenerated fresh on 2026-07-23). | Matched: signed positions, the leftward addition jump, and the subtract/add-opposite matched traces are distinct visual decisions, and the planned analyzed → completion → independent → mixed problem progression is present. |
-| 6 | 24 basic, 6 problems, 0 clozes, 5 figures. | 24 basic, 6 problems, 0 clozes, 5 figures. | Matched: area, line, equivalence, set, and grouping-division meanings are not interchangeable. |
+| 6 | 24 basic, 6 problems, 0 clozes, 5 figures. | 28 basic, 6 problems, 0 clozes, 5 figures (regenerated fresh on 2026-07-23). | Four basics were added, not to raise volume: the negative-fraction card discharges the declared Ch. 5 prerequisite edge with a real retrieval; improper→mixed and mixed→improper are separate targets because each direction fails independently; same-numerator comparison was split from same-denominator because the two rules point in opposite directions and form an interference pair; and an estimation card closes the reasonableness thread the chapter map promises. Problems and figures match the plan exactly: analyzed partition → completion equivalence → faded addition → independent “of”/multiplication and division → mixed comparison, with area, line, equivalence-strip, set, and grouping-division figures. |
 | 7 | 18 basic, 5 problems, 0 clozes, 3 figures. | 18 basic, 5 problems, 0 clozes, 3 figures. | Matched: hundred-grid, line, and aligned-column translations each support a separate decision. |
 | 8 | 15 basic, 5 problems, 0 clozes, 3 figures. | 15 basic, 5 problems, 0 clozes, 3 figures. | Matched: collection, double-line, and table figures cover distinct ratio grammars. |
 | 9 | 15 basic, 6 problems, 0 clozes, 3 figures. | 16 basic, 5 problems, 0 clozes, 3 figures. | One planned calculation problem became a basic interpretation of the original baseline; this prevents percent-change computation from hiding a baseline-choice dependency. All target families remain covered. |
 | 10 | 16 basic, 5 problems, 0 clozes, 3 figures. | 16 basic, 5 problems, 0 clozes, 3 figures. | Matched: scale reading, conversion direction, and rounded-value range are distinct visual targets. |
-| **Complete deck** | **167 basic, 45 problems, 0 clozes, 30 figures, including the approved pilot.** | **170 basic, 44 problems, 0 clozes, 30 figures; 214 cards total.** | **The one-card form shift and the two chapter-4 additions are explained above. No planned target or figure role is missing, and no weak card was added to force a distribution.** |
+| **Complete deck** | **167 basic, 45 problems, 0 clozes, 30 figures, including the approved pilot.** | **174 basic, 44 problems, 0 clozes, 30 figures; 218 cards total.** | **The one-card form shift and the chapter-4 and chapter-6 additions are explained above. No planned target or figure role is missing, and no weak card was added to force a distribution.** |
 
 ## Validation gate
 

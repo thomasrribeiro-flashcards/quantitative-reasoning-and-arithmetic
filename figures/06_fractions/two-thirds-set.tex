@@ -1,7 +1,0 @@
-% flashcards-title: Eight selected counters out of twelve
-% flashcards-desc: Twelve counters form three rows of four; eight are filled and four are unfilled.
-\documentclass[dvisvgm,tikz,border=8pt]{standalone}
-\input{figures/tikz-style.tex}
-\begin{document}\begin{tikzpicture}[x=.9cm,y=.9cm]
-\foreach \n in {0,...,11}{\pgfmathtruncatemacro{\x}{mod(\n,4)}\pgfmathtruncatemacro{\y}{floor(\n/4)}\ifnum\n<8\node[qra counter,fill=qraPale]at(\x,\y){};\else\node[qra counter,fill=white]at(\x,\y){};\fi}
-\end{tikzpicture}\end{document}
