@@ -1,0 +1,35 @@
+% flashcards-title: Subtracting five and adding negative five shown as the same leftward jump
+% flashcards-desc: Two identical horizontal number lines stacked vertically. On each line, marks are evenly spaced with 0 and 3 labeled, a round dot sits on the mark at 3, and a curved arrow jumps five marks leftward from the dot to a mark labeled with a question mark. The top line is captioned three minus five and the bottom line is captioned three plus negative five.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=1.05cm]
+  % Top panel: 3 - 5
+  \node[qra label, anchor=west] at (-4.6,1.05) {$3 - 5$};
+  \draw[qra axis, {Stealth[length=3.2mm]}-{Stealth[length=3.2mm]}] (-4.6,0) -- (4.6,0);
+  \foreach \n in {-4,...,4} {
+    \draw[qra tick] (\n,-0.14) -- (\n,0.14);
+  }
+  \node[qra label, below=6pt] at (0,-0.14) {0};
+  \node[qra label, below=6pt] at (3,-0.14) {3};
+  \node[qra label, text=qraGold, below=6pt] at (-2,-0.14) {?};
+  \fill[qraBlue] (3,0) circle (2.6pt);
+  \draw[qra tick, draw=qraBlue, -{Stealth[length=2.6mm]}]
+    (3,0.25) to[bend right=40] (-2,0.25);
+
+  % Bottom panel: 3 + (-5), an identical trace
+  \begin{scope}[yshift=-3.4cm]
+    \node[qra label, anchor=west] at (-4.6,1.05) {$3 + (-5)$};
+    \draw[qra axis, {Stealth[length=3.2mm]}-{Stealth[length=3.2mm]}] (-4.6,0) -- (4.6,0);
+    \foreach \n in {-4,...,4} {
+      \draw[qra tick] (\n,-0.14) -- (\n,0.14);
+    }
+    \node[qra label, below=6pt] at (0,-0.14) {0};
+    \node[qra label, below=6pt] at (3,-0.14) {3};
+    \node[qra label, text=qraGold, below=6pt] at (-2,-0.14) {?};
+    \fill[qraBlue] (3,0) circle (2.6pt);
+    \draw[qra tick, draw=qraBlue, -{Stealth[length=2.6mm]}]
+      (3,0.25) to[bend right=40] (-2,0.25);
+  \end{scope}
+\end{tikzpicture}
+\end{document}

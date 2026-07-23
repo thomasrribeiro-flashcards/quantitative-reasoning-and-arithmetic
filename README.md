@@ -79,6 +79,11 @@ divisibility tests, and prime/composite classifications — was verified by
 direct derivation during its 2026-07-23 regeneration, and its cold-start audit
 is recorded in
 `.flashcards/audits/04_operation_structure_and_factors-cold-start.md`.
+Chapter 5's arithmetic — signed comparisons, distances from zero, opposites,
+and every signed addition and subtraction, including each restore-the-start
+inverse check — was verified by direct derivation during its 2026-07-23
+regeneration, and its cold-start audit is recorded in
+`.flashcards/audits/05_signed_quantities-cold-start.md`.
 
 Do not commit proprietary reference files. Free access does not by itself grant
 permission for AI ingestion, copying, modification, or redistribution.
