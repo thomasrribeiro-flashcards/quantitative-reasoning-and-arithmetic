@@ -2,6 +2,7 @@
 order = 2
 subject = "mathematics"
 authoring_model = "claude-fable-5"
+authoring_reasoning_effort = "high"
 tags = ["quantitative-reasoning", "addition", "subtraction", "whole-numbers"]
 prerequisites = ["chapter:01_quantities_and_whole_numbers"]
 provides = ["whole-number-addition", "whole-number-subtraction", "inverse-operation-check", "whole-number-regrouping"]

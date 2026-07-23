@@ -2,6 +2,7 @@
 order = 3
 subject = "mathematics"
 authoring_model = "claude-fable-5"
+authoring_reasoning_effort = "high"
 tags = ["quantitative-reasoning", "multiplication", "division", "whole-numbers"]
 prerequisites = ["chapter:02_addition_and_subtraction"]
 provides = ["whole-number-multiplication", "whole-number-division", "division-remainder", "array-representation"]

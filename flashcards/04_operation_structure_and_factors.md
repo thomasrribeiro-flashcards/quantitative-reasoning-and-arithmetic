@@ -2,6 +2,7 @@
 order = 4
 subject = "mathematics"
 authoring_model = "claude-fable-5"
+authoring_reasoning_effort = "high"
 tags = ["quantitative-reasoning", "operation-order", "factors", "powers"]
 prerequisites = ["chapter:03_multiplication_and_division"]
 provides = ["arithmetic-expression", "operation-order", "factor-and-multiple", "prime-and-composite", "whole-number-power"]

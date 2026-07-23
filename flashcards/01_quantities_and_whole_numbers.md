@@ -2,6 +2,7 @@
 order = 1
 subject = "mathematics"
 authoring_model = "claude-fable-5"
+authoring_reasoning_effort = "high"
 tags = ["quantitative-reasoning", "whole-numbers", "number-sense", "estimation"]
 prerequisites = []
 provides = [

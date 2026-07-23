@@ -2,6 +2,7 @@
 order = 5
 subject = "mathematics"
 authoring_model = "claude-fable-5"
+authoring_reasoning_effort = "high"
 tags = ["quantitative-reasoning", "signed-numbers", "number-line", "integer-arithmetic"]
 prerequisites = ["chapter:04_operation_structure_and_factors"]
 provides = ["signed-number", "signed-number-line", "opposite-number", "absolute-distance", "signed-addition", "signed-subtraction"]
