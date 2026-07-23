@@ -1,0 +1,30 @@
+% flashcards-title: Counters grouped into loops of ten with single counters
+% flashcards-desc: Two outlined loops each enclose ten identical round counters arranged in two rows of five. Below the loops, five more identical counters sit alone in a row, outside any loop.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}
+  % Loop A: ten counters in a 5 x 2 grid
+  \foreach \i in {0,...,4} {
+    \foreach \j in {0,1} {
+      \node[qra counter] at (\i*0.85, \j*0.85) {};
+    }
+  }
+  \draw[qra axis, rounded corners=14pt] (-0.62,-0.62) rectangle (4.02,1.47);
+
+  % Loop B: ten counters in a 5 x 2 grid
+  \begin{scope}[xshift=5.6cm]
+    \foreach \i in {0,...,4} {
+      \foreach \j in {0,1} {
+        \node[qra counter] at (\i*0.85, \j*0.85) {};
+      }
+    }
+    \draw[qra axis, rounded corners=14pt] (-0.62,-0.62) rectangle (4.02,1.47);
+  \end{scope}
+
+  % Five single counters outside any loop
+  \foreach \i in {0,...,4} {
+    \node[qra counter] at (2.85 + \i*0.85, -2.1) {};
+  }
+\end{tikzpicture}
+\end{document}
