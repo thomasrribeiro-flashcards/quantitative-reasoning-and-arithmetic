@@ -1,0 +1,24 @@
+% flashcards-title: Array of counters with one row and one column marked
+% flashcards-desc: Counters arranged in a rectangular array of 3 rows and 5 columns. An arrow above the top row is labeled row, and an arrow beside the left column is labeled column. No totals or statements are shown.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}
+  % Array: 3 rows (j) x 5 columns (i)
+  \foreach \i in {0,...,4} {
+    \foreach \j in {0,1,2} {
+      \node[qra counter] at (\i*0.85, -\j*0.85) {};
+    }
+  }
+
+  % Row arrow above the top row
+  \draw[qra guide, draw=qraGold, -{Stealth[length=2.6mm]}]
+    (-0.1,0.72) -- (3.5,0.72);
+  \node[qra small label, text=qraGold] at (1.7,1.18) {row};
+
+  % Column arrow beside the left column
+  \draw[qra guide, draw=qraGold, -{Stealth[length=2.6mm]}]
+    (-0.78,0.1) -- (-0.78,-1.8);
+  \node[qra small label, text=qraGold, rotate=90] at (-1.22,-0.85) {column};
+\end{tikzpicture}
+\end{document}
