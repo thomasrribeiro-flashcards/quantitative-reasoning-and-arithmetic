@@ -1,0 +1,26 @@
+% flashcards-title: Structure diagram of a two-step calculation
+% flashcards-desc: The numbers 7 and 2 each have an arrow into a box marked with a subtraction sign. An arrow leaves that box and meets an arrow from the number 3 at a box marked with a multiplication sign. An arrow leaves the multiplication box and ends at a box holding a question mark. No written expression and no result value are shown.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[
+  value/.style={qra label, circle, draw=qraNavy, fill=white,
+    line width=0.9pt, minimum size=8mm, inner sep=1pt},
+  op/.style={qra label, rectangle, rounded corners=2pt, draw=qraNavy,
+    fill=qraPale, line width=1pt, minimum size=9mm, inner sep=2pt},
+  flow/.style={draw=qraBlue, line width=1.1pt, -{Stealth[length=2.8mm]}}
+]
+  \node[value] (n7) at (0,0) {7};
+  \node[value] (n2) at (1.8,0) {2};
+  \node[op] (minus) at (0.9,-1.5) {$-$};
+  \node[value] (n3) at (2.9,-1.5) {3};
+  \node[op] (times) at (1.9,-3.0) {$\times$};
+  \node[op, fill=white, draw=qraGold] (result) at (1.9,-4.5) {?};
+
+  \draw[flow] (n7) -- (minus);
+  \draw[flow] (n2) -- (minus);
+  \draw[flow] (minus) -- (times);
+  \draw[flow] (n3) -- (times);
+  \draw[flow, draw=qraGold] (times) -- (result);
+\end{tikzpicture}
+\end{document}
