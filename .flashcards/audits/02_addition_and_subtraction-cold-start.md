@@ -1,113 +1,151 @@
-# Chapter 2 cold-start audit: addition and subtraction
+# Cold-start audit — 02_addition_and_subtraction
 
-Audit date: 2026-07-20
+- Date: 2026-07-22
+- Auditor: authoring agent (claude-fable-5), isolated fresh-agent regeneration
+- Method: front-first scan. Every scheduled front (Q: or P: block, including
+  figure alt text and supplied premises) was audited for domain-bearing terms,
+  symbols, representations, and procedures before its answer was consulted.
+  Each dependency was resolved to one of: **inbound** (Chapter 1 scheduled
+  cards, per the machine-resolved closure), **earlier** (established by a
+  scheduled Chapter 2 card that precedes it), or **self** (defined on the same
+  front before first use, using only established language).
+- Inbound closure: `chapter:01_quantities_and_whole_numbers` only. No external
+  decks, no assumed tools.
 
-Target: `flashcards/02_addition_and_subtraction.md`
+## Inbound frontier (Chapter 1)
 
-## Chapter-boundary contract
+Quantity and numeral; counting; zero; whole numbers; digits; place value
+(ones, tens, hundreds); placeholder zero; the number line with rightward
+growth; comparison symbols `<` and `>`; exact value vs. estimate; rounding to
+the nearest ten or hundred with the round-half-up-at-halfway convention;
+IDENTIFY/PLAN/EXECUTE/EVALUATE problem labels; figure grammar: an outlined
+loop encloses exactly ten counters.
 
-The machine-resolved graph was checked with
-`flashcards deck prerequisites . --chapter 2`.
+## Front-by-front audit
 
-- Edge mode: explicit.
-- Allowed local inbound chapter:
-  `chapter:01_quantities_and_whole_numbers`.
-- Allowed scheduled inbound knowledge: quantities and numerals; reliable
-  counting; zero and whole numbers; digits; ones, tens, and hundreds place
-  value; placeholder zero; the whole-number line and rightward increase;
-  whole-number comparison; exact amounts and estimates; nearest-ten and
-  nearest-hundred rounding; and the already demonstrated IPEE problem labels.
-- External deck closure: none.
-- Assumed tools: none.
-- Excluded as unseen: multiplication, division, operation-order conventions,
-  signed quantities, fractions, decimals, ratios, percents, measurement units,
-  money conventions, formal algebra, and letter placeholders.
+Cards listed in scheduled order.
 
-## Chapter concept-dependency ledger
+1. `4fb884a8` — Q, addition bridge (4 + 2).
+   Dependencies: quantity (inbound); joining as everyday word (self, grounded
+   in melons/crates example); addition, `+`, "plus", `=`, "equals", sum, total
+   (self: all defined on this front before the task).
+2. `76250e53` — Q, part–whole diagram figure (6 and 3, whole unknown).
+   Dependencies: part–whole diagram, part, whole, `?`-marks-the-unknown
+   convention (self); sum (earlier: card 1); figure alt text uses only
+   box/numeral language (inbound/self). Answer not leaked by figure: whole
+   box shows `?`.
+3. `af2ffc94` — Q, operation defined; choose operation for 12 + 5.
+   Dependencies: operation (self); addition, total (earlier: card 1).
+4. `d8c5b8c0` — P, analyzed 32 + 45.
+   Front dependencies: joining context only (earlier: cards 1, 3). Solution
+   uses place value, rounding/estimate, IPEE labels (inbound); place-by-place
+   addition is taught by this card's PLAN/EXECUTE (self).
+5. `4f183af4` — Q, open number line figure (34 + 23).
+   Dependencies: number line, rightward growth, tens/ones (inbound); jump
+   (self: defined on front); sum (earlier: card 1); landing mark labeled `?`
+   (convention from card 2). Figure shows +20 and +3 with proportional
+   lengths; answer 57 not shown.
+6. `7430e7b3` — Q, column alignment for 46 + 31.
+   Dependencies: column (self: defined on front); digit, place (inbound);
+   sum (earlier: card 1). The fenced layout is display, not a new notation
+   beyond stacking numerals.
+7. `6899fbee` — Q, regrouping exchange figure (12 ones).
+   Dependencies: ones/tens places, digit capacity of a place (inbound);
+   regrouping, equal-value exchange (self); loop-of-ten figure grammar
+   (inbound, and restated on the front). Figure shows 12 ones ↔ 1 ten +
+   2 ones with a "same quantity" arrow; the written tens/ones digits asked
+   for are not printed in the figure.
+8. `c6a1c8c2` — P, completion 38 + 27 (ones step supplied).
+   Front dependencies: regrouping exchange (earlier: card 7); ones (inbound);
+   supplied premise 8 + 7 = 15 uses established addition (card 1). Solution's
+   "carry" is introduced there in apposition to "the exchanged ten" (self).
+9. `fd3fab76` — Q, subtraction bridge (9 − 4).
+   Dependencies: removal as everyday word (self, grounded in plums example);
+   subtraction, `-`, "minus", difference (self: defined on front).
+10. `7a94c9d8` — Q, choose operation for 17 − 6.
+    Dependencies: operation (earlier: card 3); addition (card 1); subtraction
+    (earlier: card 9).
+11. `2f56a072` — Q, comparison meaning (12 − 8).
+    Dependencies: comparison sense of subtraction (self: defined on front);
+    difference (earlier: card 9); "how many more" comparison language
+    (inbound: Chapter 1 comparison).
+12. `6c3bc458` — Q, unknown part (15 − 9).
+    Dependencies: part–whole diagram, part, whole (earlier: card 2);
+    subtraction, removal (earlier: card 9); missing-part-by-subtraction
+    (self: derived on front from part–whole meaning).
+13. `f172bd4d` — Q, inverse operations; check 28 + 14 = 42.
+    Dependencies: addition/sum (card 1); subtraction (card 9); inverse
+    operations and the check-addition-by-subtraction procedure (self:
+    defined and exemplified on front).
+14. `9342d310` — Q, place-by-place subtraction 68 − 25.
+    Dependencies: tens/ones (inbound); place-by-place structure bridged by
+    explicit analogy to place-value addition (earlier: cards 4, 6);
+    subtraction (card 9). No regrouping needed (8 ≥ 5, 6 ≥ 2).
+15. `a8b241dc` — Q, exchange in the other direction (52 for 52 − 28).
+    Dependencies: place-by-place removal (earlier: card 14); regrouping
+    exchange and its equal-value property (earlier: card 7; reverse
+    direction stated on front, self); whole numbers (inbound); figure
+    grammar restated (inbound/card 7). Figure is the same equal-value
+    exchange; the regrouped form of 52 asked for is not shown.
+16. `086c4e5d` — Q, inverse check of a subtraction (71 − 35 = 36).
+    Dependencies: inverse relationship (earlier: card 13); the
+    subtraction-checked-by-addition direction (self: derived on front from
+    removal splitting the start); difference (card 9).
+17. `bbcd0ffb` — P, independent 63 − 47 with inverse check.
+    Front dependencies: removal context (card 9); "inverse operation" check
+    request (earlier: cards 13 and 16 — the addition-rebuilds-the-start
+    procedure is established before this independent use). Solution uses
+    exchange (card 15), place-by-place removal (card 14), IPEE (inbound).
+18. `f90e3dec` — Q, estimate rejects 487 + 305 = 912.
+    Dependencies: rounding to nearest hundred, estimate vs. exact (inbound);
+    addition/sum (card 1). The front supplies the rounded values; judging
+    the claim against the estimate is the retrieved skill.
+19. `a7302adb` — Q, remainder bound rejects 45 − 28 = 63.
+    Dependencies: removal (card 9); `>` comparison (inbound); the
+    difference-below-start bound (self: stated on front before the task).
+20. `6f487817` — Q, column misalignment 46 + 3 = 76.
+    Dependencies: columns and why alignment matters (earlier: card 6);
+    tens/ones values of digits (inbound).
+21. `03f8ffe4` — Q, smaller-from-larger bug 74 − 38 = 44.
+    Dependencies: place-by-place removal (card 14); exchange for
+    insufficient ones (card 15); order of removal is not swappable (self:
+    the front presents the flawed reasoning as the object of diagnosis).
+22. `d860f755` — Q, compensation 48 + 26.
+    Dependencies: compensation (self: defined and exemplified with 29 + 15
+    on front); total, joined parts (card 1); tens-ending-in-0 ease
+    (inbound place value).
+23. `83ab255e` — P, mixed two-step 94 − 38 then + 25.
+    Front dependencies: operation choice (cards 3, 10); removal and joining
+    (cards 1, 9); estimate request (inbound). Solution uses exchange
+    (card 15), regrouping in addition (card 7), rounding with the half-up
+    convention for 25 → 30 (inbound), IPEE (inbound). The estimate is two
+    separate one-operation equations; no operation-order convention is used.
 
-| New concept, symbol, procedure, or representation | First explanation or analyzed example | First supported retrieval | Later faded or independent use | Status |
-|---|---|---|---|---|
-| Addition; \(+\); \(=\); total; sum | Front 01 defines every term and symbol while joining two small counted amounts. | Front 01 completes a supported sum. | Fronts 03–08, 13, 17, 20, 22–23. | established |
-| Part–whole diagram | Front 02 explains the upper parts, lower whole, labels, and unknown mark; the front SVG and alt text contain only setup information. | Front 02 finds the whole from two parts. | Front 12 finds an unknown part without requiring a letter variable. | established |
-| Operation as a mathematical action | Front 03 defines the term before asking for operation choice. | Front 03 chooses addition from a joining situation. | Fronts 10 and 23. | established |
-| Place-value decomposition for addition | Front 04 explicitly directs tens-with-tens and ones-with-ones and is a fully analyzed problem. | Front 04 computes a supported sum. | Fronts 05–08 and 22. | established |
-| Decomposed number-line jumps | Front 05 defines the start, rightward jump labels, tens jump, ones jump, and unknown endpoint on the scheduled front. | Front 05 translates the line to an endpoint and sum. | Flexible addition and later number-line reasoning. | established |
-| Vertical calculation and column alignment | Front 06 defines a column and explains equal-place alignment beside the written layout. | Front 06 explains why the ones digits align. | Fronts 08, 14, 20–21. | established |
-| Regrouping as an equal-value exchange | Front 07 defines regrouping, states both exchange directions, and supplies an original reversible tens/ones figure. | Front 07 records twelve ones as one ten and two ones. | Fronts 08, 15–16, 21, and 23. | established |
-| Subtraction; \(-\); difference; remaining amount | Front 09 defines the operation, symbol, result word, and removal meaning on a small counted amount. | Front 09 completes supported removal. | Fronts 10–21 and 23. | established |
-| Subtraction as comparison | Front 11 explicitly defines the comparison meaning before asking for a difference. | Front 11 finds how many more. | Magnitude and reasonableness checks. | established |
-| Subtraction as unknown-part finding | Part–whole grammar is established on Front 02; Front 12 supplies the whole and known part in words. | Front 12 chooses subtraction and finds the missing part. | Inverse-operation reasoning. | established |
-| Inverse operations and inverse checks | Front 13 defines “inverse” as undoing and supplies a complete sum before asking for the checking subtraction. | Front 13 checks addition. | Fronts 16–17 and 23 check subtraction or a final addition. | established |
-| Subtraction regrouping | Front 15 states why two ones cannot supply eight ones while staying in whole-number arithmetic and reuses the already explained exchange figure. | Front 15 selects three tens and twelve ones. | Fronts 16, 21, and 23. | established |
-| Estimate check | Exact/estimate and nearest-hundred rounding are inbound; Front 18 supplies the rounded values and asks only for the diagnostic judgment. | Front 18 rejects a result with the wrong approximate size. | Later arithmetic reasonableness checks. | established |
-| Subtraction magnitude bound | Whole-number comparison is inbound; Front 19 states the applicable zero-to-starting-amount bound before asking for diagnosis. | Front 19 rejects a difference larger than the starting amount. | Later quantitative reasonableness checks. | established |
-| Compensation | Front 22 defines moving the same amount between joined parts and states that the total is unchanged. | Front 22 selects the equivalent easier sum. | Flexible mental computation. | established |
+## Boundary checks
 
-## Front-by-front cold-start scan
+- No later-chapter material on any front or answer: no multiplication or
+  division language ("groups of ten" is Chapter 1 place-value language), no
+  money or measurement units (all contexts are counts of discrete objects),
+  no fractions, decimals, signed numbers, or letter variables (`?` marks
+  every unknown), and no operation-order conventions (multi-step work is
+  written as separate equations).
+- Sequencing fix applied during this audit: the explanation card
+  `086c4e5d` (addition checks a subtraction) was moved ahead of the
+  independent problem `bbcd0ffb`, which asks the learner to perform
+  that check. IDs and retrieval targets unchanged.
+- All arithmetic on cards was re-derived during the scan: 4+2=6, 6+3=9,
+  12+5=17, 32+45=77 (est. 30+50=80), 34+23=57, 12 ones = 1 ten 2 ones,
+  38+27=65 (est. 40+30=70), 9−4=5, 17−6=11, 12−8=4, 15−9=6, 28+14=42,
+  42−14=28, 68−25=43, 52 = 4 tens 12 ones, 71−35=36, 36+35=71, 63−47=16,
+  16+47=63, 487+305=792 (est. 800), 45−28=17, 46+3=49, 46+30=76, 74−38=36,
+  29+15=30+14=44, 48+26=50+24=74, 94−38=56, 56+25=81 (est. 90−40=50,
+  50+30=80). Every halfway rounding (45, 25) rounds up, per the Chapter 1
+  convention.
+- Figures: three original TikZ sources compiled to SVG with `viewBox`,
+  `<title>`, and `<desc>`; inspected at phone width; no front figure prints
+  the answer its card asks for.
 
-The scan was performed in scheduled order from a front-only extraction. For
-each row, the listed dependencies were recorded before the corresponding answer
-or solution was inspected.
-
-| Front | Dependencies needed to parse and attempt the front | Allowed source or earlier establishment | Finding |
-|---:|---|---|---|
-| 01 | Counted whole-number amounts | Chapter 1; all addition words and symbols are defined on this front | ready |
-| 02 | Whole numbers; addition; new diagram grammar | Chapter 1; Front 01; diagram grammar is explained before the image | ready |
-| 03 | Whole-number quantities; “operation”; addition | Chapter 1; “operation” is defined on this front; Front 01 | ready |
-| 04 | Tens and ones; addition; IPEE response form | Chapter 1; Front 01; front supplies the place-value plan; IPEE is inbound | ready |
-| 05 | Whole-number line, rightward increase, tens and ones, addition | Chapter 1; Front 01; jump grammar is explained on this front | ready |
-| 06 | Digits and place value; addition; vertical column | Chapter 1; Front 01; “column” and alignment are defined on this front | ready |
-| 07 | Place-value equivalence; addition; regrouping; exchange figure | Chapter 1; Front 01; regrouping and the full figure grammar are defined on this front | ready |
-| 08 | Addition and addition regrouping | Fronts 01 and 07; the meaningful ones step is supplied for completion | ready |
-| 09 | Counted whole-number amounts | Chapter 1; subtraction, minus, difference, and removal are defined on this front | ready |
-| 10 | Operation choice; subtraction removal meaning | Fronts 03 and 09 | ready |
-| 11 | Whole-number comparison; subtraction | Chapter 1; Front 09; comparison meaning is explained on this front | ready |
-| 12 | Part–whole structure; subtraction | Fronts 02 and 09 | ready |
-| 13 | Addition, subtraction, parts and total; inverse | Fronts 01, 02, and 09; inverse is defined on this front | ready |
-| 14 | Vertical alignment; place value; subtraction | Chapter 1; Fronts 06 and 09 | ready |
-| 15 | Subtraction; regrouping; reversible exchange figure | Fronts 07 and 09; the whole-number boundary and needed exchange are stated on this front | ready |
-| 16 | Subtraction, place value, regrouping | Chapter 1; Fronts 09 and 15 | ready |
-| 17 | Addition, subtraction, difference, inverse check | Fronts 01, 09, and 13 | ready |
-| 18 | Estimate, nearest-hundred rounding, subtraction, difference | Chapter 1; Front 09; rounded comparison values are supplied | ready |
-| 19 | Zero, whole-number comparison, subtraction, difference | Chapter 1; Front 09; the applicable bound is stated on this front | ready |
-| 20 | Digit place value, addition, vertical alignment | Chapter 1; Fronts 01 and 06 | ready |
-| 21 | Subtraction, columns, regrouping | Fronts 06, 09, and 15 | ready |
-| 22 | Addition, joined parts, unchanged total; compensation | Fronts 01–02; compensation is defined on this front | ready |
-| 23 | Counted amounts; removal versus joining; regrouping | Chapter 1; Fronts 03, 09, and 15; temporal words specify the two steps | ready |
-
-## Answer-side and figure audit
-
-- Back 04 uses the IPEE labels already demonstrated in Chapter 1; it introduces
-  no later front dependency.
-- Back 08 uses Chapter 1 rounding only after the supported regrouping front.
-- Back 16 uses the inverse relationship established on Front 13.
-- Back 19 names the already stated diagnostic rule a “size bound”; no later
-  front requires that phrase.
-- Back 23 writes the rounded two-step check as two separate equations, so no
-  later operation-order convention is assumed.
-- The part–whole SVG has a responsive `viewBox`, title, description, redundant
-  labels, and an unknown whole; it does not reveal the requested sum.
-- The decomposed-addition SVG has a responsive `viewBox`, title, description,
-  numeric start and intermediate point, labeled rightward jumps, and an unknown
-  endpoint; its scale and direction agree with the arithmetic.
-- The regrouping SVG has a responsive `viewBox`, title, description, text
-  labels, outlined tens and ones, and a two-headed same-quantity cue; meaning
-  does not depend on color.
-- Every Markdown alt text describes setup information without revealing the
-  requested result.
-- No front, back, figure, or alt text borrows an unavailable later-chapter
-  concept.
-
-## Repairs made during the scan
-
-- Front 03 gained a minimal scheduled definition of “operation.”
-- Front 06 gained a minimal scheduled definition of “column.”
-- Inline math delimiters stripped during the initial patch were restored before
-  parser validation.
-- The regrouping figure's hidden exchange arrow and crowded one-counters were
-  repaired and visually reinspected.
-- The mixed problem's estimated check was split into two explicit equations to
-  avoid assuming a later operation-order convention.
+## Result
 
 cold_start_status: pass
 unresolved_dependencies: 0

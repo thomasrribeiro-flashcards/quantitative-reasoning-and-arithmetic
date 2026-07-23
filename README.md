@@ -63,13 +63,17 @@ Record every source used to determine scope or verify claims.
 | [U.S. Department of Education, What Works Clearinghouse, *Assisting Students Struggling with Mathematics: Intervention in the Elementary Grades*](https://ies.ed.gov/ncee/WWC/PracticeGuide/26/Published) | Evidence-informed design guidance for systematic instruction, concise mathematical language, selective representations, number lines, worked-example fading, and deliberate word-problem instruction. | Official federal practice-guide page and publication; consulted and paraphrased for instructional design only. No source prose, examples, tables, or figures reproduced, and no redistribution license was assumed for cited third-party material. | 2026-07-20 |
 | [OpenStax, *Prealgebra 2e* book metadata and preface](https://openstax.org/books/prealgebra-2e/pages/preface) | Course-scale scope cross-check only. It was not used as a source for card prose, exercises, or figures. | Site currently states CC BY-NC-SA 4.0 for textbook content and separately prohibits LLM ingestion without permission. Only public metadata was consulted; no textbook content was ingested or adapted. | 2026-07-17 |
 | [Gelman & Gallistel counting-principles summary (ERIC ED571641)](https://eric.ed.gov/?id=ED571641) | Verification that the pilot's three counting rules (stable order, one-to-one correspondence, cardinality) match the established how-to-count principles. Consulted for the 2026-07-22 pilot regeneration; the principles were paraphrased into original everyday language. | U.S. government-hosted ERIC record; consulted as a research summary only. No source prose, examples, or figures reproduced. | 2026-07-22 |
+| [Massachusetts DESE, *Quick Reference Guide: Common Addition and Subtraction Situations* (January 2018)](https://www.doe.mass.edu/frameworks/math/2017-06qrg-common-add-sub.pdf) | Verification that Chapter 2's situation coverage — joining/removal change, part–whole with an unknown part, and comparison — matches the established addition/subtraction situation taxonomy. Consulted for the 2026-07-22 Chapter 2 regeneration; every card context is original. | State-government curriculum guide; consulted for taxonomy verification only. No source prose, examples, tables, or figures reproduced. | 2026-07-22 |
 
 Stable arithmetic claims in the pilot were verified by direct derivation and
 adversarial examples. Every example, problem, explanation, and figure is
 original. The nearest-halfway convention in this deck is to round to the higher
 place value; later cards will state this convention whenever a tie can occur.
 The round-half-up school convention was re-confirmed during the 2026-07-22
-pilot regeneration before being restated on the rounding fronts.
+pilot regeneration before being restated on the rounding fronts. Chapter 2's
+arithmetic was verified by direct derivation during its 2026-07-22
+regeneration, and its cold-start audit is recorded in
+`.flashcards/audits/02_addition_and_subtraction-cold-start.md`.
 
 Do not commit proprietary reference files. Free access does not by itself grant
 permission for AI ingestion, copying, modification, or redistribution.

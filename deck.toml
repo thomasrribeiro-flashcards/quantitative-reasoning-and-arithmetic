@@ -3,7 +3,7 @@ subject = "mathematics"
 deck = "quantitative-reasoning-and-arithmetic"
 level = "foundational"
 curriculum_order = 1
-status = "pilot-built"
+status = "pilot-approved"
 pilot_chapter = 1
 created = "2026-07-17"
 
