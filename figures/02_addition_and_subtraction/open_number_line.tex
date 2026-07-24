@@ -4,26 +4,28 @@
 \input{figures/tikz-style.tex}
 \begin{document}
 \begin{tikzpicture}[x=0.25cm]
-  % Base line: 20 units span 5cm, 3 units span 0.75cm (honest proportion)
-  \draw[qra axis, -{Stealth[length=3mm]}] (30,0) -- (61,0);
+  % Use local canvas coordinates so the visible diagram has no hidden
+  % left-side space. The node labels carry the displayed number values.
+  % Base line: 20 units span 5cm, 3 units span 0.75cm (honest proportion).
+  \draw[qra axis, -{Stealth[length=3mm]}] (-4,0) -- (27,0);
 
   % Ticks
-  \foreach \x in {34,54,57} {
+  \foreach \x in {0,20,23} {
     \draw[qra tick] (\x,-0.18) -- (\x,0.18);
   }
 
   % Labels
-  \node[qra label, below=6pt] at (34,-0.18) {34};
-  \node[qra label, below=6pt] at (54,-0.18) {54};
-  \node[qra label, text=qraGold, below=6pt] at (57,-0.18) {?};
+  \node[qra label, below=6pt] at (0,-0.18) {34};
+  \node[qra label, below=6pt] at (20,-0.18) {54};
+  \node[qra label, text=qraGold, below=6pt] at (23,-0.18) {?};
 
   % Start dot
-  \fill[qraBlue] (34,0) circle (2.6pt);
+  \fill[qraBlue] (0,0) circle (2.6pt);
 
   % Jumps
   \draw[qra tick, draw=qraBlue, -{Stealth[length=2.6mm]}]
-    (34,0.25) to[bend left=40] node[qra small label, above=2pt, text=qraBlue] {$+20$} (54,0.25);
+    (0,0.25) to[bend left=40] node[qra small label, above=2pt, text=qraBlue] {$+20$} (20,0.25);
   \draw[qra tick, draw=qraGold, -{Stealth[length=2.6mm]}]
-    (54,0.25) to[bend left=55] node[qra small label, above=2pt, text=qraGold] {$+3$} (57,0.25);
+    (20,0.25) to[bend left=55] node[qra small label, above=2pt, text=qraGold] {$+3$} (23,0.25);
 \end{tikzpicture}
 \end{document}

@@ -56,17 +56,15 @@ addition is the operation that finds the total of joined amounts:
 P: One bookcase holds 32 paperback books and a second bookcase holds 45.
 How many books do the two bookcases hold together?
 
-S: 77 books.
-
-IDENTIFY: Two amounts are joined into one total, so this is an addition:
+S: IDENTIFY: Two amounts are joined into one total, so this is an addition:
 \(32 + 45\).
 
-PLAN: Counting 77 items one by one would be slow, so use place value. A
+PLAN: Counting every book one by one would be slow, so use place value. A
 two-digit numeral is tens and ones, so add the tens together, add the ones
 together, and then join the two results.
 
-EXECUTE: Tens: 3 groups of ten joined with 4 groups of ten make 7 groups of
-ten — \(30 + 40 = 70\). Ones: \(2 + 5 = 7\). Joining them:
+EXECUTE: **77 books.** Tens: 3 groups of ten joined with 4 groups of ten
+make 7 groups of ten — \(30 + 40 = 70\). Ones: \(2 + 5 = 7\). Joining them:
 \(70 + 7 = 77\), so \(32 + 45 = 77\).
 
 EVALUATE: Estimate by rounding each count to its nearest ten: 32 rounds to
@@ -137,12 +135,17 @@ How many packets did it collect in all? The solution is started for you:
 adding the ones gives \(8 + 7 = 15\) ones — ten or more, so a regrouping
 exchange is needed. Complete the addition.
 
-S: 65 packets.
+S: IDENTIFY: Two amounts are joined, so this is addition with regrouping:
+\(38 + 27\).
 
-Exchange ten of the 15 ones for one ten: 15 ones becomes 1 ten and 5 ones.
-Write 5 in the ones place and carry the exchanged ten to the tens. Tens:
-\(3 + 2 = 5\) tens, and the exchanged ten makes 6 tens. So
-\(38 + 27 = 65\).
+PLAN: The front already adds the ones. Exchange ten of those 15 ones for
+one ten, keep the remaining ones, then add the tens including the exchanged
+ten.
+
+EXECUTE: **65 packets.** Exchange ten of the 15 ones for one ten: 15 ones
+becomes 1 ten and 5 ones. Write 5 in the ones place and carry the exchanged
+ten to the tens. Tens: \(3 + 2 = 5\) tens, and the exchanged ten makes
+6 tens. So \(38 + 27 = 65\).
 
 EVALUATE: Estimate by rounding to the nearest ten: \(40 + 30 = 70\), close
 to 65 — and 65 is larger than both joined amounts, as a total must be.
@@ -249,17 +252,15 @@ P: A charging rack held 63 batteries this morning. During the day, 47
 batteries are taken from the rack for use. How many batteries remain?
 Check your result with the inverse operation.
 
-S: 16 batteries remain.
-
-IDENTIFY: An amount is removed from a starting quantity, so this is a
+S: IDENTIFY: An amount is removed from a starting quantity, so this is a
 subtraction: \(63 - 47\).
 
 PLAN: Remove place by place. The ones place asks for 7 to be removed from
 3, which whole numbers cannot do, so exchange one ten for ten ones first.
 
-EXECUTE: 63 is 6 tens and 3 ones; after the exchange it is 5 tens and
-13 ones. Ones: \(13 - 7 = 6\). Tens: removing 4 tens from 5 tens leaves
-1 ten. So \(63 - 47 = 16\).
+EXECUTE: **16 batteries remain.** 63 is 6 tens and 3 ones; after the
+exchange it is 5 tens and 13 ones. Ones: \(13 - 7 = 6\). Tens: removing
+4 tens from 5 tens leaves 1 ten. So \(63 - 47 = 16\).
 
 EVALUATE: Inverse check — joining the removed batteries back must rebuild
 the start: \(16 + 47\) gives \(6 + 7 = 13\) ones (regrouped as 1 ten and
@@ -340,15 +341,17 @@ out to another room; later, 25 chairs are brought back in. Decide which
 operation each change needs, then find how many chairs the hall holds at
 the end. Check your result with an estimate.
 
-S: 81 chairs.
-
-IDENTIFY: Two changes in time order: first chairs are removed (a
+S: IDENTIFY: Two changes in time order: first chairs are removed (a
 subtraction), then chairs are joined back in (an addition).
 
-EXECUTE: Removal: \(94 - 38\). Exchange one ten: 94 becomes 8 tens and
-14 ones; ones \(14 - 8 = 6\), tens \(8 - 3 = 5\), so 56 chairs remain.
-Joining: \(56 + 25\). Ones \(6 + 5 = 11\), regrouped as 1 ten and 1 one;
-tens \(5 + 2 + 1 = 8\). So the hall ends with \(56 + 25 = 81\) chairs.
+PLAN: Apply the changes in time order: subtract 38 from 94, then add 25 to
+the remainder. Regroup in each operation when the ones require it.
+
+EXECUTE: **81 chairs.** Removal: \(94 - 38\). Exchange one ten: 94 becomes
+8 tens and 14 ones; ones \(14 - 8 = 6\), tens \(8 - 3 = 5\), so 56 chairs
+remain. Joining: \(56 + 25\). Ones \(6 + 5 = 11\), regrouped as 1 ten and
+1 one; tens \(5 + 2 + 1 = 8\). So the hall ends with
+\(56 + 25 = 81\) chairs.
 
 EVALUATE: Estimate each step with nearest tens: \(90 - 40 = 50\), then
 \(50 + 30 = 80\) — close to 81. The end count is also below the starting
