@@ -106,6 +106,13 @@ tip, percent change, percentage-point difference, and the successive
 10%-up-10%-down computation — was verified by direct derivation with inverse
 or bound checks during its 2026-07-23 isolated regeneration, and its
 cold-start audit is recorded in `.flashcards/audits/09_percents-cold-start.md`.
+Chapter 10's arithmetic — every unit identity, scale reading, unit
+conversion, mixed-unit sum, rounded-value interval endpoint under the
+stated half-up rule, interval-propagation bound, and unit-price
+comparison — was verified by direct derivation with inverse or bound
+checks during its 2026-07-23 isolated regeneration, and its cold-start
+audit is recorded in
+`.flashcards/audits/10_measurement_estimation_and_decisions-cold-start.md`.
 
 Do not commit proprietary reference files. Free access does not by itself grant
 permission for AI ingestion, copying, modification, or redistribution.
