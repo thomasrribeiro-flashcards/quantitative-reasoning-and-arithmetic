@@ -1,0 +1,20 @@
+% flashcards-title: Before and after membership bars
+% flashcards-desc: Two horizontal bars sharing a common left edge. The upper bar is labeled before, 40 members. The lower bar is longer and labeled after, 50 members. A dashed vertical line rises where the before bar ends, and the piece of the after bar beyond that line is shaded differently.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=1.5cm,y=1cm]
+  % Before bar: 4 units for 40 members
+  \fill[qraPale] (0,1.55) rectangle (4,2.3);
+  \draw[qra axis] (0,1.55) rectangle (4,2.3);
+  \node[qra label, anchor=west] at (4.15,1.925) {before: 40 members};
+  % After bar: 5 units for 50 members, extra piece shaded gold
+  \fill[qraPale] (0,0) rectangle (4,0.75);
+  \fill[qraGold!45] (4,0) rectangle (5,0.75);
+  \draw[qra axis] (0,0) rectangle (5,0.75);
+  \draw[qra axis] (4,0) -- (4,0.75);
+  \node[qra label, anchor=west] at (5.15,0.375) {after: 50 members};
+  % Dashed guide at the before length
+  \draw[qra guide] (4,-0.35) -- (4,2.6);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,20 @@
+% flashcards-title: Original price bar split into sale price and discount
+% flashcards-desc: A horizontal bar spanned above by a bracket labeled original price, 60 dollars. The bar is split into a long left segment labeled sale price, 45 dollars, and a shorter, differently shaded right segment labeled discount, 15 dollars.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  % Bar: 8 units total, split at 6 (45 of 60 dollars)
+  \fill[qraPale] (0,0) rectangle (6,1);
+  \fill[qraGold!45] (6,0) rectangle (8,1);
+  \draw[qra axis] (0,0) rectangle (8,1);
+  \draw[qra axis] (6,0) -- (6,1);
+  \node[qra label] at (3,0.5) {sale price \$45};
+  \node[qra small label, align=center] at (7,0.5) {discount\\\$15};
+  % Bracket spanning the whole bar
+  \draw[qra tick] (0,1.3) -- (0,1.55);
+  \draw[qra tick] (8,1.3) -- (8,1.55);
+  \draw[qra tick] (0,1.425) -- (8,1.425);
+  \node[qra label, above] at (4,1.55) {original price \$60};
+\end{tikzpicture}
+\end{document}

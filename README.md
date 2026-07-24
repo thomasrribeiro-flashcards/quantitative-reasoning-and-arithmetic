@@ -64,6 +64,7 @@ Record every source used to determine scope or verify claims.
 | [OpenStax, *Prealgebra 2e* book metadata and preface](https://openstax.org/books/prealgebra-2e/pages/preface) | Course-scale scope cross-check only. It was not used as a source for card prose, exercises, or figures. | Site currently states CC BY-NC-SA 4.0 for textbook content and separately prohibits LLM ingestion without permission. Only public metadata was consulted; no textbook content was ingested or adapted. | 2026-07-17 |
 | [Gelman & Gallistel counting-principles summary (ERIC ED571641)](https://eric.ed.gov/?id=ED571641) | Verification that the pilot's three counting rules (stable order, one-to-one correspondence, cardinality) match the established how-to-count principles. Consulted for the 2026-07-22 pilot regeneration; the principles were paraphrased into original everyday language. | U.S. government-hosted ERIC record; consulted as a research summary only. No source prose, examples, or figures reproduced. | 2026-07-22 |
 | [Massachusetts DESE, *Quick Reference Guide: Common Addition and Subtraction Situations* (January 2018)](https://www.doe.mass.edu/frameworks/math/2017-06qrg-common-add-sub.pdf) | Verification that Chapter 2's situation coverage — joining/removal change, part–whole with an unknown part, and comparison — matches the established addition/subtraction situation taxonomy. Consulted for the 2026-07-22 Chapter 2 regeneration; every card context is original. | State-government curriculum guide; consulted for taxonomy verification only. No source prose, examples, tables, or figures reproduced. | 2026-07-22 |
+| [The Journalist's Resource (Harvard Shorenstein Center), *Percent change and percentage-point change: 4 tips to avoid math errors*](https://journalistsresource.org/home/percent-change-math-for-journalists/) | Verification that Chapter 9's percentage-point/percent-change distinction matches standard usage: percentage points are the direct difference of two percents, while percent change divides the change by the starting value. Consulted for the 2026-07-23 Chapter 9 regeneration; all card wording and examples are original. | University-hosted explainer consulted for terminology verification only. No source prose, examples, or figures reproduced. | 2026-07-23 |
 
 Stable arithmetic claims in the pilot were verified by direct derivation and
 adversarial examples. Every example, problem, explanation, and figure is
@@ -99,6 +100,12 @@ test, including each divide-back and multiply-back check — was verified by
 direct derivation during its 2026-07-23 regeneration, and its cold-start
 audit is recorded in
 `.flashcards/audits/08_ratios_rates_and_proportions-cold-start.md`.
+Chapter 9's arithmetic — every percent–fraction–decimal conversion, percent
+of a quantity, 10%-anchor value, part/whole/rate recovery, discount, tax,
+tip, percent change, percentage-point difference, and the successive
+10%-up-10%-down computation — was verified by direct derivation with inverse
+or bound checks during its 2026-07-23 isolated regeneration, and its
+cold-start audit is recorded in `.flashcards/audits/09_percents-cold-start.md`.
 
 Do not commit proprietary reference files. Free access does not by itself grant
 permission for AI ingestion, copying, modification, or redistribution.
