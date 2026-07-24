@@ -1,6 +1,0 @@
-% flashcards-title: Two input-output tables
-% flashcards-desc: The first table pairs one two three with four eight twelve; the second pairs one two three with four nine fourteen.
-\documentclass[dvisvgm,tikz,border=8pt]{standalone}\input{figures/tikz-style.tex}
-\begin{document}\begin{tikzpicture}[x=.9cm,y=.7cm]
-\foreach \o/\vals in {0/{4,8,12},5/{4,9,14}}{\draw[qra axis](\o,0)grid(\o+3,4);\node[qra label]at(\o+1.5,3.5){in \quad out};\foreach \r/\a/\b in {1/1/4,2/2/8,3/3/12}{\node[qra small label]at(\o+.75,3.5-\r){\a};}\ifnum\o=0\foreach \r/\b in {1/4,2/8,3/12}{\node[qra small label]at(\o+2.25,3.5-\r){\b};}\else\foreach \r/\b in {1/4,2/9,3/14}{\node[qra small label]at(\o+2.25,3.5-\r){\b};}\fi}
-\end{tikzpicture}\end{document}

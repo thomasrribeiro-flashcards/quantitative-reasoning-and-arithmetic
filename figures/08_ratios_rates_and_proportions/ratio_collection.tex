@@ -1,0 +1,24 @@
+% flashcards-title: A mixed collection of triangles and circles
+% flashcards-desc: Two rows of small shapes arranged in mixed order. Some of the shapes are gold triangles and the others are pale circles with dark outlines.
+\documentclass[tikz]{standalone}
+\input{figures/tikz-style.tex}
+\begin{document}
+\begin{tikzpicture}[x=1.3cm, y=1.3cm]
+  % Row layout (top then bottom): T C C T C / C T C C T
+  % 4 triangles and 6 circles in all.
+  \newcommand{\shapecircle}[2]{\draw[qraNavy, line width=0.9pt, fill=qraPale] (#1,#2) circle (0.30);}
+  \newcommand{\shapetriangle}[2]{\draw[qraNavy, line width=0.9pt, fill=qraGold] (#1-0.33,#2-0.28) -- (#1+0.33,#2-0.28) -- (#1,#2+0.32) -- cycle;}
+  % Top row
+  \shapetriangle{0}{1}
+  \shapecircle{1}{1}
+  \shapecircle{2}{1}
+  \shapetriangle{3}{1}
+  \shapecircle{4}{1}
+  % Bottom row
+  \shapecircle{0}{0}
+  \shapetriangle{1}{0}
+  \shapecircle{2}{0}
+  \shapecircle{3}{0}
+  \shapetriangle{4}{0}
+\end{tikzpicture}
+\end{document}

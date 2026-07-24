@@ -92,7 +92,13 @@ Chapter 7's arithmetic — every place-value reading, fraction–decimal
 conversion, comparison, sum, difference, product, quotient, rounding, and the
 1/300 gap in the 1/3 diagnosis — was verified by direct derivation during its
 2026-07-23 regeneration, and its cold-start audit is recorded in
-`.flashcards/audits/07_decimals-cold-start.md`.
+`.flashcards/audits/07_decimals-cold-start.md`. Chapter 8's arithmetic —
+every ratio, scale factor, simplest form, table and double-number-line
+completion, unit rate, decimal unit-price division, and proportionality
+test, including each divide-back and multiply-back check — was verified by
+direct derivation during its 2026-07-23 regeneration, and its cold-start
+audit is recorded in
+`.flashcards/audits/08_ratios_rates_and_proportions-cold-start.md`.
 
 Do not commit proprietary reference files. Free access does not by itself grant
 permission for AI ingestion, copying, modification, or redistribution.
