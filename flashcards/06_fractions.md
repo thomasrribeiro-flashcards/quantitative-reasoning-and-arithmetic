@@ -85,7 +85,7 @@ Q: Placing fourths on the number line, the fourth step lands exactly on
 out for \(\frac{2}{2}\), \(\frac{3}{3}\), and every fraction whose
 numerator equals its denominator?
 
-A: 1. Taking all 5 of the 5 equal parts reassembles the whole exactly.
+A: **1**. Taking all 5 of the 5 equal parts reassembles the whole exactly.
 Whenever the numerator equals the denominator, every part is taken, so
 the fraction names one whole — the number 1.
 
@@ -342,7 +342,7 @@ pieces already grouped.
 
 Use the figure's groups to find \(\frac{3}{4}\) of 12.
 
-A: 9. Each group holds \(12 \div 4 = 3\) pieces, and three groups hold
+A: **9**. Each group holds \(12 \div 4 = 3\) pieces, and three groups hold
 \(3 \times 3 = 9\). Check: the one group not taken holds 3, and
 \(9 + 3 = 12\), the whole collection.
 
@@ -353,7 +353,7 @@ computed as \(20 \div 4 = 5\) in each of the 4 equal groups, then
 \(5 \times 3 = 15\) in the 3 groups taken. Compute
 \(\frac{2}{5} \times 30\).
 
-A: 12. Divide by the denominator: \(30 \div 5 = 6\); multiply by the
+A: **12**. Divide by the denominator: \(30 \div 5 = 6\); multiply by the
 numerator: \(6 \times 2 = 12\). So \(\frac{2}{5} \times 30 = 12\).
 
 <!-- card-id: 0e3a0d8a-1b6d-479f-b435-21ce590ed019 -->
@@ -396,7 +396,7 @@ the result, insisting that multiplying always makes numbers bigger.
 What is \(\frac{1}{2} \times 8\), and what is wrong with the student's
 rule?
 
-A: 4. \(\frac{1}{2} \times 8\) means one half of 8, and half of 8 is 4.
+A: **4**. \(\frac{1}{2} \times 8\) means one half of 8, and half of 8 is 4.
 The habit "multiplication makes bigger" comes from whole numbers
 greater than 1; multiplying by a number **less than 1** takes only part
 of the amount, so the result shrinks.
@@ -428,7 +428,7 @@ and the thirds bundle into groups of 2, giving \(12 \div 2 = 6\) —
 exactly \(4 \times \frac{3}{2}\). Compute \(9 \div \frac{3}{4}\) with
 the rule, and check by multiplying back.
 
-A: 12. \(9 \div \frac{3}{4} = 9 \times \frac{4}{3} = \frac{36}{3} =
+A: **12**. \(9 \div \frac{3}{4} = 9 \times \frac{4}{3} = \frac{36}{3} =
 12\). Check: \(12 \times \frac{3}{4} = \frac{36}{4} = 9\), the starting
 number, so 12 groups of \(\frac{3}{4}\) fill 9 exactly.
 
@@ -456,7 +456,7 @@ serving is less than one whole pizza.
 Q: Without computing exactly, decide which whole number
 \(\frac{7}{8} + \frac{11}{12}\) is closest to, and say how you know.
 
-A: 2. Each addend is one small part short of a whole —
+A: **2**. Each addend is one small part short of a whole —
 \(\frac{7}{8}\) misses 1 by only \(\frac{1}{8}\), and
 \(\frac{11}{12}\) misses it by \(\frac{1}{12}\) — so the sum falls just
 short of \(1 + 1 = 2\). Benchmarks settle the estimate with no common

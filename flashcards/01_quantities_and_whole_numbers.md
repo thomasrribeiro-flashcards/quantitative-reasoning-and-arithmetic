@@ -99,7 +99,7 @@ single items.
 Write the two-digit numeral that records the total quantity of counters,
 and say what each digit counts.
 
-A: 25. The digit 2 sits in the tens place and counts the two loops of ten
+A: **25**. The digit 2 sits in the tens place and counts the two loops of ten
 counters; the digit 5 sits in the ones place and counts the five single
 counters. Two groups of ten and five singles make 25 counters in all.
 

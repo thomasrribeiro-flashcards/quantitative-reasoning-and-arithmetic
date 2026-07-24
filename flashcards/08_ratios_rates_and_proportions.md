@@ -107,7 +107,7 @@ by a different factor.
 
 What number belongs in place of the question mark?
 
-A: 12. The last column scales \(2:3\) by 4, since
+A: **12**. The last column scales \(2:3\) by 4, since
 \(2 \times 4 = 8\), so its sugar entry is \(3 \times 4 = 12\).
 
 <!-- card-id: 742418dc-7dc5-4bfe-a054-4a7345b10304 -->
@@ -159,7 +159,7 @@ The plan is already fixed: find the middle column's scale factor
 from its glass entry, then apply that factor to its clay entry.
 Carry the plan out.
 
-S: 20. The middle column's glass entry is \(8 = 4 \times 2\), so its
+S: **20**. The middle column's glass entry is \(8 = 4 \times 2\), so its
 scale factor is 2, and the clay entry is \(10 \times 2 = 20\).
 
 EVALUATE: Dividing \(8:20\) through by 4 gives \(2:5\), and dividing

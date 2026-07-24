@@ -228,7 +228,7 @@ digit moves one place larger: \(10 \times 0.46 = 4.6\), the 4 tenths
 becoming 4 ones and the 6 hundredths becoming 6 tenths. Multiplying by
 100 shifts two places. Compute \(100 \times 0.35\).
 
-A: 35. Two shifts: \(0.35 \to 3.5 \to 35\). As a fraction check,
+A: **35**. Two shifts: \(0.35 \to 3.5 \to 35\). As a fraction check,
 \(0.35 = \frac{35}{100}\), and 100 of those hundredths make exactly 35.
 
 <!-- card-id: a74f7946-b5b9-48b2-b917-13cc7128e9ea -->
@@ -277,7 +277,7 @@ multiplying top and bottom by 10 — an equivalent fraction — gives
 \(\frac{12}{4} = 3\). The value never changes; the divisor just
 becomes a whole number. Compute \(2.4 \div 0.6\).
 
-A: 4. Scaling both numbers by 10 turns the division into
+A: **4**. Scaling both numbers by 10 turns the division into
 \(24 \div 6 = 4\). Check: \(4 \times 0.6 = 2.4\).
 
 <!-- card-id: 04bca0d7-ee91-4f26-9181-53b416a89915 -->
@@ -304,7 +304,7 @@ the two nearest values at the target place and keep the closer one;
 when the number is exactly halfway, this deck rounds to the higher
 value. Round 6.48 to the nearest whole number.
 
-A: 6. The candidates are 6 and 7, and 6.48 is only 0.48 above 6 —
+A: **6**. The candidates are 6 and 7, and 6.48 is only 0.48 above 6 —
 less than the halfway value 6.50 — so 6 is closer. The two digits 4
 and 8 together say 48 hundredths, under half.
 

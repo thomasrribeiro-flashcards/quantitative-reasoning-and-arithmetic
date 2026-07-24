@@ -47,7 +47,7 @@ subtraction**. So \(5 + 3 \times 2\) has only one correct value — the product
 is found first, \(3 \times 2 = 6\), then \(5 + 6 = 11\). Using the
 convention, evaluate \(20 - 2 \times 7\).
 
-A: 6. Multiply first: \(2 \times 7 = 14\); then subtract: \(20 - 14 = 6\).
+A: **6**. Multiply first: \(2 \times 7 = 14\); then subtract: \(20 - 14 = 6\).
 (Subtracting first would compute \(20 - 2 = 18\) and then \(18 \times 7\) —
 a different structure the convention rules out.)
 
@@ -58,7 +58,7 @@ rank. The rule for ties: operations of equal rank are done **left to right**.
 Grouping marks still override everything. Evaluate \(10 - 4 - 3\), and
 explain why \(10 - (4 - 3)\) has a different value.
 
-A: 3. Equal rank, left to right: \(10 - 4 = 6\), then \(6 - 3 = 3\). The
+A: **3**. Equal rank, left to right: \(10 - 4 = 6\), then \(6 - 3 = 3\). The
 marked version computes inside first — \(4 - 3 = 1\), then \(10 - 1 = 9\) —
 because grouping marks override the left-to-right reading.
 
@@ -67,7 +67,7 @@ Q: A student evaluates \(8 + 6 \div 2\) strictly in the order the signs
 appear: "\(8 + 6 = 14\), then \(14 \div 2 = 7\)." The answer 7 is wrong.
 Which rule did the student misapply, and what is the correct value?
 
-A: 11. Division outranks addition, so the quotient is found first:
+A: **11**. Division outranks addition, so the quotient is found first:
 \(6 \div 2 = 3\), then \(8 + 3 = 11\). Left to right only breaks ties
 between operations of the **same** rank — it never lets an addition jump
 ahead of a division.
@@ -107,7 +107,7 @@ is 3: \(2 \times 2 = 4\), then \(4 \times 2 = 8\).
 Q: A student writes \(2^5 = 10\), reasoning "2 times 5 is 10." What did the
 student mistake the exponent for, and what is the correct value of \(2^5\)?
 
-A: 32. The student treated the exponent as a factor to multiply by. The
+A: **32**. The student treated the exponent as a factor to multiply by. The
 exponent is a **count** — it says how many times the base appears as a
 factor: \(2^5 = 2 \times 2 \times 2 \times 2 \times 2\), and step by step
 \(2 \times 2 = 4\), \(4 \times 2 = 8\), \(8 \times 2 = 16\),
@@ -120,7 +120,7 @@ multiplication and division, left to right; last, addition and subtraction,
 left to right. Evaluate \(2 \times 3^2\), and explain why 36 is not its
 value.
 
-A: 18. The power is evaluated before the multiplication:
+A: **18**. The power is evaluated before the multiplication:
 \(3^2 = 3 \times 3 = 9\), then \(2 \times 9 = 18\). The value 36 would come
 from multiplying first (\(2 \times 3 = 6\)) and using that product as the
 base — but the exponent belongs to 3 alone.

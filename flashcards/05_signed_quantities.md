@@ -104,7 +104,7 @@ Zero is its own opposite, since it is zero marks from itself. What is the
 opposite of \(-8\), and what changes and what stays the same when you
 form it?
 
-A: 8. The distance from zero stays the same — eight marks — while the
+A: **8**. The distance from zero stays the same — eight marks — while the
 side flips from below zero to above zero. Forming an opposite only
 switches the sign.
 
@@ -157,7 +157,7 @@ Q: Adding a number to its opposite always lands exactly on zero:
 precisely the distance back to 0. Compute \((-8) + 8\), and explain why
 no counting is needed.
 
-A: 0. Adding the positive number 8 jumps rightward from \(-8\), and
+A: **0**. Adding the positive number 8 jumps rightward from \(-8\), and
 eight marks is exactly the distance from \(-8\) to zero — opposites have
 the same distance from zero on opposite sides, so joining them always
 cancels to 0.
@@ -251,7 +251,7 @@ correction is \(4 - (-3)\). Rewriting as adding the opposite:
 \(4 - (-3) = 4 + 3 = 7\), a rightward jump. Compute \(2 - (-7)\), and
 check the result with an inverse operation.
 
-A: 9. Subtracting \(-7\) is adding its opposite: \(2 - (-7) = 2 + 7 = 9\).
+A: **9**. Subtracting \(-7\) is adding its opposite: \(2 - (-7) = 2 + 7 = 9\).
 Inverse check: adding \(-7\) back should undo the removal, and
 \(9 + (-7) = 2\), the starting number.
 

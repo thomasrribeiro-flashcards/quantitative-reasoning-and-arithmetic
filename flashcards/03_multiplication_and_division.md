@@ -82,7 +82,7 @@ the quantity is zero no matter how many empty groups there are.
 Q: The statement \(7 \times 10\) records 7 groups of ten. Using place value,
 what is the product, and why can it be written down without any adding?
 
-A: 70. Seven groups of ten is exactly what a numeral's tens place records:
+A: **70**. Seven groups of ten is exactly what a numeral's tens place records:
 7 tens and 0 ones is the numeral 70. Any whole number of groups of ten can
 be written straight into the tens place.
 
@@ -93,7 +93,7 @@ hold the same items as 3 groups of 20 together with 3 groups of 4. Find each
 of those two partial products, then join them with addition. What is
 \(3 \times 24\)?
 
-A: 72. The pieces: \(3 \times 20 = 60\) (3 groups of 2 tens is 6 tens) and
+A: **72**. The pieces: \(3 \times 20 = 60\) (3 groups of 2 tens is 6 tens) and
 \(3 \times 4 = 12\). Joining them: \(60 + 12 = 72\).
 
 <!-- card-id: 7477de56-affd-4fea-a08c-31877315585c -->
@@ -101,7 +101,7 @@ Q: A student finds \(4 \times 27\) by splitting: "27 is 20 and 7.
 \(4 \times 20 = 80\), then join the 7: \(80 + 7 = 87\)." The answer 87 is
 wrong. What did the student forget, and what is the correct product?
 
-A: 108. Every one of the 4 groups holds 20 *and* 7, so the ones must be
+A: **108**. Every one of the 4 groups holds 20 *and* 7, so the ones must be
 multiplied too: \(4 \times 7 = 28\), not 7. Joining the partial products:
 \(80 + 28 = 108\). The student joined the ones of only a single group.
 

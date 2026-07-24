@@ -35,9 +35,9 @@ marked ? is the one whose number is not yet known.
 
 What is the whole in this diagram, and how does the diagram tell you?
 
-A: 9. The upper boxes show the parts 6 and 3, and the lower box is their
-total when joined: \(6 + 3 = 9\). In a part–whole diagram the whole is
-always the sum of the two parts.
+A: The whole is **9**. The upper boxes show the parts 6 and 3, and the lower
+box is their total when joined: \(6 + 3 = 9\). In a part–whole diagram the
+whole is always the sum of the two parts.
 
 <!-- card-id: af2ffc94-ff1b-4db6-a0a7-c48630679fab -->
 Q: An **operation** is an action carried out on numbers to produce a new
@@ -210,7 +210,7 @@ place by place: take the ones of the removed number from the ones of the
 starting number, and its tens from the tens. Use this to find
 \(68 - 25\), saying what is removed from what in each place.
 
-A: 43. Ones: removing 5 ones from 8 ones leaves \(8 - 5 = 3\). Tens:
+A: **43**. Ones: removing 5 ones from 8 ones leaves \(8 - 5 = 3\). Tens:
 removing 2 tens from 6 tens leaves 4 tens, which is 40. Together,
 \(40 + 3 = 43\).
 
