@@ -88,6 +88,11 @@ arithmetic — every partition count, equivalence, simplest form, comparison,
 sum, difference, product, quotient, mixed-number conversion, and estimate —
 was verified by direct derivation during its 2026-07-23 regeneration, and its
 cold-start audit is recorded in `.flashcards/audits/06_fractions-cold-start.md`.
+Chapter 7's arithmetic — every place-value reading, fraction–decimal
+conversion, comparison, sum, difference, product, quotient, rounding, and the
+1/300 gap in the 1/3 diagnosis — was verified by direct derivation during its
+2026-07-23 regeneration, and its cold-start audit is recorded in
+`.flashcards/audits/07_decimals-cold-start.md`.
 
 Do not commit proprietary reference files. Free access does not by itself grant
 permission for AI ingestion, copying, modification, or redistribution.
